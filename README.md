@@ -11,5 +11,5 @@ Process the Football.csv and Weather.csv based on the filename for minimum Goal 
 Max Sum Subarray:
 -----------------
 
-Find the maximum sum sub-array for the given array, with all positive or all negative or both negative adn positive
+Find the maximum sum sub-array for the given array, with all positive or all negative or both negative and positive
 numbers
