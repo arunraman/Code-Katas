@@ -13,10 +13,11 @@ def array_pair_sum(arr,k):
             seen.add(num)
         else:
             output.add((min(num,target),max(num,target)))
+    return output
 
 def Main():
     a = [-1,-1,-3,3,4]
-    print array_pair_sum(a,0)
+    print array_pair_sum(a,-2)
 
 if __name__ == '__main__':
     Main()

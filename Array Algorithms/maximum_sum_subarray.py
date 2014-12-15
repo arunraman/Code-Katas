@@ -41,7 +41,6 @@ def Main():
     print maximum_sum_subarray(b)
     print maximum_sum_subarray(c)
     print maximum_sum_subarray(d)
-    print minimum_sum_subarray(d)
 
 if __name__ == '__main__':
     Main()
