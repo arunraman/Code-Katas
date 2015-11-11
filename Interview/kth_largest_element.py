@@ -34,7 +34,7 @@ def kthlargest(arr, left, right, k):
 
 def Main():
     a = [5, 4, 7, 1, 2]
-    print kthlargest(a, 0, len(a)-1, 2)
+    print kthlargest(a, 0, len(a)-1, 4)
 
 if __name__ == '__main__':
     Main()
