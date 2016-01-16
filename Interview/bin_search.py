@@ -26,4 +26,4 @@ def Main():
 	print bin_search(array, 11)
 
 if __name__ == '__main__':
-    Main()
+	Main()

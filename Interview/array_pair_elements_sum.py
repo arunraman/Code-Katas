@@ -2,10 +2,10 @@
 from collections import defaultdict
 
 
-def _array_pair_elements_sum(arr):
-    hash_map = defaultdict(int)
-    for i, j in enumerate(arr):
-        for
+#def _array_pair_elements_sum(arr):
+#    hash_map = defaultdict(int)
+#    for i, j in enumerate(arr):
+#        for
 
 
 def Main():
