@@ -5,14 +5,15 @@ def moving_average(arr, N):
     avg = []
     for i, j in enumerate(arr):
         if i >= N-1:
-            avg.append(get_sum(arr, i)/N)
+            avg.append(get_sum(arr, i, N)/N)
     print avg
 
 
 def get_sum(arr, index, N):
     sum = 0
-    while (index_count == N):
-        sum = sum + a[index]
+    index_count = 0
+    while (index_count != N):
+        sum = sum + arr[index]
         index -= 1
         index_count += 1
     return sum
