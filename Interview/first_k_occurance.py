@@ -1,6 +1,6 @@
 #!/usr/bin/python
 '''
-first occurance of k in a sorted array
+first occurrence of k in a sorted array
 '''
 
 
@@ -18,22 +18,22 @@ def bin_search(array, k):
     return -1
 
 
-def first_k_occurance(array, k):
-    occurance = bin_search(array, k)
-    if occurance != -1:
-        while occurance > 0:
-            if array[occurance - 1] == k:
-                occurance -= 1
+def first_k_occurrence(array, k):
+    occurrence = bin_search(array, k)
+    if occurrence != -1:
+        while occurrence > 0:
+            if array[occurrence - 1] == k:
+                occurrence -= 1
             else:
-                return occurance
-        return occurance
+                return occurrence
+        return occurrence
     return -1
 
 
 def Main():
     array = [1, 2, 2, 5, 6, 9, 12]
-    print first_k_occurance(array, 2)
+    print first_k_occurrence(array, 2)
 
 
 if __name__ == '__main__':
-        Main()
+    Main()

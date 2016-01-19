@@ -15,6 +15,7 @@ keyboard = {
     '9': ['W', 'X', 'Y', 'Z'],
 }
 
+
 def getLetters(telephone_key, place):
     return keyboard[telephone_key][place]
 
@@ -24,7 +25,8 @@ def wordCombinations(telephone_number, curr_digit, result):
         tel_words.append("".join(result))
         return
 
-    if telephone_number[curr_digit] == "7" or telephone_number[curr_digit] == "9":
+    if telephone_number[curr_digit] == "7" or \
+            telephone_number[curr_digit] == "9":
         char = 4
     else:
         char = 3
@@ -41,7 +43,7 @@ def telephoneWords(telephone_number):
 
 def Main():
     tel_number = ""
-    tel =  tel_number.join(str(random.randint(2, 9)) for i in xrange(10))
+    tel = tel_number.join(str(random.randint(2, 9)) for i in xrange(10))
     telephoneWords(tel)
     print tel_words
     print len(tel_words)

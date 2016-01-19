@@ -1,8 +1,7 @@
-__author__ = 'arunraman'
-
 '''To find two numbers in a array whose sum is equal to the given value K'''
 
-def array_pair_sum(arr,k):
+
+def array_pair_sum(arr, k):
     if len(arr) < 2:
         return
     seen = set()
@@ -12,12 +11,13 @@ def array_pair_sum(arr,k):
         if target not in seen:
             seen.add(num)
         else:
-            output.add((min(num,target),max(num,target)))
+            output.add((min(num, target), max(num, target)))
     return output
 
+
 def Main():
-    a = [-1,-1,-3,3,4]
-    print array_pair_sum(a,-2)
+    a = [-1, -1, -3, 3, 4]
+    print array_pair_sum(a, -2)
 
 if __name__ == '__main__':
     Main()
