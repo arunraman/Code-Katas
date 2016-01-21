@@ -4,18 +4,18 @@
 def three_sum(array, sum):
     if array is None or len(array) < 3:
         return False
-        if sum is None:
-            return False
-        hash_map = {}
-        for i in xrange(len(array)):
-            for j in xrange(i, len(array)):
-                tmp = sum - (array[i] + array[j])
-                if tmp not in hash_map:
-                    hash_map[tmp] = (i, j)
+    if sum is None:
+        return False
+    hash_map = {}
+    for i in xrange(len(array)):
+        for j in xrange(i, len(array)):
+            tmp = sum - (array[i] + array[j])
+            if tmp not in hash_map:
+                hash_map[tmp] = (i, j)
 
-        for i, e in enumerate(array):
-            if e in hash_map and i not in hash_map[e]:
-                return hash_map[e], i
+    for i, e in enumerate(array):
+        if e in hash_map and i not in hash_map[e]:
+            return hash_map[e], i
 
 
 def Main():

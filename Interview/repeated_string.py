@@ -23,8 +23,7 @@ def repeated_string(str):
             rep = c
             count = 1
         i += 1
-    print max_rep
-    print "The maximum repeated string is %s", str[index:index+count+1]
+    print "The maximum repeated string is", str[index:index+count+1]
 
 
 def Main():
