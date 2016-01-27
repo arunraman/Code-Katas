@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 '''
-Separate 1, 2, 0 separately
+Separate 1, 2, 0 seperately
 '''
 
 

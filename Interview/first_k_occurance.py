@@ -3,6 +3,8 @@
 first occurrence of k in a sorted array
 '''
 
+from collections import defaultdict
+
 
 def bin_search(array, k):
     begin = 0
@@ -30,9 +32,17 @@ def first_k_occurrence(array, k):
     return -1
 
 
+def first_occurrence(array, k):
+    hash = defaultdict(list)
+    for position, element in enumerate(array):
+        hash[element].append(position)
+    return min(hash[k])
+
+
 def Main():
     array = [1, 2, 2, 5, 6, 9, 12]
     print first_k_occurrence(array, 2)
+    print first_occurrence(array, 2)
 
 
 if __name__ == '__main__':

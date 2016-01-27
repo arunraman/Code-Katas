@@ -23,7 +23,7 @@ def word_count(file):
 
 def Main():
     if not os.path.exists(sys.argv[1]):
-        sys.exit("Please sepcify a file name for word count")
+        sys.exit("Please specify a file name for word count")
 
     word_count(sys.argv[1])
 
