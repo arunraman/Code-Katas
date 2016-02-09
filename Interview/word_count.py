@@ -15,8 +15,8 @@ def word_count(file):
             words = line.split()
             for word in words:
                 word = word.lower()
-                punct = re.compile(r'([^A-Za-z0-9])')
-                punct.sub("", word)
+                remove_punctuation = re.compile(r'([^A-Za-z0-9])')
+                remove_punctuation.sub("", word)
                 word_dict[word] += 1
     print word_dict
 
