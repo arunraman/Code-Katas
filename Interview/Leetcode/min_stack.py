@@ -1,4 +1,5 @@
 class MinStack(object):
+
     def __init__(self):
         """
         initialize your data structure here.
@@ -14,7 +15,7 @@ class MinStack(object):
         self.stack_1.append(x)
         if len(self.stack_2) == 0 or x <= self.stack_2[-1]:
             self.stack_2.append(x)
-        print self.stack_1 , self.stack_2
+        print self.stack_1, self.stack_2
 
     def pop(self):
         """
@@ -25,13 +26,11 @@ class MinStack(object):
         if top == self.stack_2[-1]:
             self.stack_2.pop()
 
-
     def top(self):
         """
         :rtype: int
         """
         return self.stack_1[-1]
-
 
     def getMin(self):
         """
@@ -48,4 +47,3 @@ S.push(6)
 S.push(5)
 print S.top()
 print S.getMin()
-

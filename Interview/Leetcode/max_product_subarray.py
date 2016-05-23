@@ -1,6 +1,7 @@
 class Solution:
     # @param A, a list of integers
     # @return an integer
+
     def maxProduct(self, A):
         if len(A) == 0:
             return 0
@@ -11,10 +12,10 @@ class Solution:
             a = A[i] * min_tmp
             b = A[i] * max_tmp
             c = A[i]
-            max_tmp = max(max(a,b),c)
-            min_tmp = min(min(a,b),c)
+            max_tmp = max(max(a, b), c)
+            min_tmp = min(min(a, b), c)
             result = max_tmp if max_tmp > result else result
         return result
 
 S = Solution()
-print S.maxProduct([2,3,-2,4])
+print S.maxProduct([2, 3, -2, 4])
