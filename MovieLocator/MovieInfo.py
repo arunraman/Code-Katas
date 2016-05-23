@@ -48,12 +48,11 @@ with app.app_context():
         def get_image(self, key):
             cached = r.get(key)
             if cached:
-                image = StringIO(cached)
-                image.seek(0)
-                return send_file(image, mimetype='image/jpg')
+                im = Image.open(StringIO(cached))
 
 
-# if __name__ == '__main__':
-#     M = MovieInfo("Furious 7")
-#     M.get_movie_info()
-#     M.get_image("Furious 7")
+
+if __name__ == '__main__':
+    M = MovieInfo("Furious 7")
+    M.get_movie_info()
+    M.get_image("Furious 7")

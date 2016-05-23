@@ -12,7 +12,7 @@ def mapview():
 	if request.method == 'POST' and movie_name != "":
 		M = MovieInfo(movie_name)
 		movie_dict = M.get_movie_info()
-		image_file = M.get_image(movie_name)
+		image_file = movie_dict['Poster']
 		sndmap = Map(
 			identifier="sndmap",
 			lat=37.4419,
