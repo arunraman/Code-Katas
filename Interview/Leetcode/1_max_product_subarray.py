@@ -18,4 +18,4 @@ class Solution:
         return result
 
 S = Solution()
-print S.maxProduct([2, 3, -2, 4])
+print S.maxProduct([-2, 3, -2, -1])

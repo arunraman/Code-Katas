@@ -19,7 +19,6 @@ def longest_common_sequence(str_1, str_2):
                 elif c == longest:
                     lcs_set.add(str_1[i - c + 1:i + 1])
 
-    return lcs_set
-
+    return lcs_set.pop()
 
 print longest_common_sequence("abcd", "abace")

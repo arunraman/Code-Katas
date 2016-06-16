@@ -6,7 +6,7 @@ def increaseNumberRoundness(n):
             return True
         elif n % 10 != 0:
             gotToSignificant = True
-        n /=  10
+        n /= 10
 
     return False
 

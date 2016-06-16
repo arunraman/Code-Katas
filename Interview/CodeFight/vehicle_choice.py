@@ -3,7 +3,7 @@ def fancyRide(l, fares):
     vehicle_choice = ""
     vehicle = ["UberX", "UberXL", "UberPlus", "UberBlack", "UberSUV"]
     for f, v in zip(fares, vehicle):
-        if (l  * f ) <= 20 and (l * f) > max_value :
+        if (l * f) <= 20 and (l * f) > max_value:
             max_value = (l * f)
             vehicle_choice = v
 

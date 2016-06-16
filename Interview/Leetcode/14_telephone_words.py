@@ -2,6 +2,30 @@
 import random
 tel_words = []
 
+# Solution 1
+# @return a list of strings, [s1, s2]
+
+
+def letterCombinations(digits):
+    if not digits:
+        return []
+
+    lookup = ["", "", "abc", "def", "ghi", "jkl", "mno",
+                      "pqrs", "tuv", "wxyz"]
+    result = [""]
+
+    for digit in reversed(digits):
+        choices = lookup[int(digit)]
+        m, n = len(choices), len(result)
+        result += [result[i % n] for i in xrange(n, m * n)]
+
+        for i in xrange(m * n):
+            result[i] = choices[i / n] + result[i]
+
+    return result
+
+# Solution 2
+
 keyboard = {
     '0': ['0', '0', '0'],
     '1': ['1', '1', '1'],
@@ -45,7 +69,8 @@ def Main():
     tel_number = ""
     tel = tel_number.join(str(random.randint(2, 9)) for i in xrange(10))
     telephoneWords(tel)
-    print tel_words
+    print len(letterCombinations(tel))
+    # print tel_words
     print len(tel_words)
 
 

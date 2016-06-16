@@ -11,5 +11,5 @@ def minMaxDifference(inputArray):
     return inputArray[indexOfMaximum] - inputArray[indexOfMinimum]
 
 
-input  = [32, 19, 11, 23]
+input = [32, 19, 11, 23]
 print minMaxDifference(input)

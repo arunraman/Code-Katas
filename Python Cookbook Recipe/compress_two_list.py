@@ -8,7 +8,7 @@ addresses = [
     '5645 N RAVENSWOOD',
     '1060 W ADDISON',
     '4801 N BROADWAY',
-     '1039 W GRANVILLE',
+    '1039 W GRANVILLE',
 ]
 
 counts = [0, 3, 10, 4, 1, 7, 6, 1]
@@ -18,4 +18,4 @@ print more5
 
 more3 = (n > 3 for n in counts)
 
-print list(compress(addresses,list(more3)))
+print list(compress(addresses, list(more3)))
