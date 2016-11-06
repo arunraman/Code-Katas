@@ -1,6 +1,7 @@
 from collections import defaultdict
 CHUNK_LENGTH = 140
 PROMO_DICT = defaultdict(list)
+import textwrap
 
 
 def get_chunks(line, promo):
@@ -15,15 +16,10 @@ def get_chunks(line, promo):
 
 
 def get_chunks_1(line, promo):
-    words = line.split()
-    l = []
-    while words:
-        t = ""
-        while words and len(t + words[0]) < CHUNK_LENGTH:
-            t += words.pop(0) + ' '
-        PROMO_DICT[promo].append(t)
-
-    print PROMO_DICT[promo]
+    PROMO_DICT[promo] = textwrap.wrap(line, 140)
+    for k, v in PROMO_DICT.iteritems():
+        for i in v:
+            print i
 
 
 if __name__ == '__main__':
@@ -34,6 +30,6 @@ if __name__ == '__main__':
            "remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset"  \
            "sheets containing Lorem Ipsum passages, and more recently with desktop publishing software"  \
            "like Aldus PageMaker including versions of Lorem Ipsum."
-    # print get_chunks(data, "PROMO_1")
-
+    print get_chunks(data, "PROMO_1")
+    print "\n\n\n\n"
     get_chunks_1(data, "PROMO_1")

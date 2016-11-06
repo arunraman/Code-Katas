@@ -1,40 +1,45 @@
 class Queue(object):
+
     def __init__(self, size):
         self.queue_length = 0
-        self.A = [None] * size
-        self.B = []
+        self.stack_1 = [None] * size
+        self.stack_2 = []
 
-    def queue_push(self, x):
-        if self.queue_length < len(self.A) and self.A[self.queue_length] == None :
-            self.A[self.queue_length] = x
+    def enqueue(self, element):
+        if self.queue_length < len(self.stack_1) and \
+           self.stack_1[self.queue_length] is None:
+            self.stack_1[self.queue_length] = element
             self.queue_length += 1
         else:
-            print "Queue is Full"
+            print "Queue is Full!!"
 
-    def queue_pop(self):
-        self.check()
-        self.B.pop()
-
-    def check(self):
-        if not self.B:
-            self.B = self.B + [self.A[self.queue_length - 1]]
+    def dequeue(self):
+        if self.queue_length != 0:
+            self.stack_2 = self.stack_1[self.queue_length - 1::-1]
+            self.stack_2.pop()
             self.queue_length -= 1
-        return self.B[-1]
+            self.stack_1[self.queue_length] = None
+            for i in xrange(len(self.stack_2)):
+                self.stack_1[i] = self.stack_2.pop()
+        else:
+            print "Queue already empty"
+
+    def peek(self):
+        if len(self.stack_1) == 0:
+            return None
+        else:
+            return self.stack_1[0]
+
+    def show_queue(self):
+        print self.stack_1
 
 
-    def is_empty(self):
-        return self.A and not self.B
-
-    def print_queue(self):
-        print self.A
-
-
-Q = Queue(5)
-Q.queue_push(1)
-Q.queue_push(1)
-Q.queue_pop()
-# Q.queue_push(1)
-# Q.queue_push(1)
-# Q.queue_push(1)
-# Q.queue_push(1)
-Q.print_queue()
+q = Queue(4)
+q.show_queue()
+for i in range(5):
+    q.enqueue(i)
+    q.show_queue()
+for i in xrange(3):
+    q.dequeue()
+    q.show_queue()
+print q.peek()

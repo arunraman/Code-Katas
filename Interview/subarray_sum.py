@@ -1,7 +1,7 @@
 from collections import Counter
 
 
-def sub_array_sum(array, k=0):
+def sub_array_sum(array, k):
     start_index = -1
     hash_sum = {}
     current_sum = 0
@@ -38,22 +38,22 @@ def sub_array_sum(array, k=0):
         print "No sub array with sum equal to " + str(k)
 
 
-def sub_array_sum_1(array, k=0):
+def sub_array_sum_1(array, k):
     start_index = -1
-    first_with_sum = {}
-    first_with_sum[0] = -1
+    hash = {}
+    hash[0] = -1
     best_start = -1
     best_len = 0
     current_sum = 0
     for i in array:
         start_index += 1
         current_sum += i
-        if current_sum - k in first_with_sum:
-            if start_index - first_with_sum[current_sum - k] > best_len:
-                best_start = first_with_sum[current_sum - k] + 1
-                best_len = start_index - first_with_sum[current_sum - k]
+        if current_sum - k in hash:
+            if start_index - hash[current_sum - k] > best_len:
+                best_start = hash[current_sum - k] + 1
+                best_len = start_index - hash[current_sum - k]
         else:
-            first_with_sum[current_sum] = start_index
+            hash[current_sum] = start_index
 
     if best_len > 0:
         print array[best_start:best_start+best_len]
@@ -67,11 +67,11 @@ def Main():
     c = [7, 8, -1, 1]
     d = [2200, 300, -6, 6, 5, -9, -5, 9]
     e = [-9, -6, 8, 6, -14, 9, 6]
-    sub_array_sum(a, 1)
-    sub_array_sum(b, 1)
-    sub_array_sum(c, 1)
-    sub_array_sum(d, 1)
-    sub_array_sum(e, 2)
+    sub_array_sum_1(a, 1)
+    sub_array_sum_1(b, 0)
+    sub_array_sum_1(c, 14)
+    sub_array_sum_1(d, 1)
+    sub_array_sum_1(e, 2)
     sub_array_sum_1(c, 0)
 
 if __name__ == '__main__':
