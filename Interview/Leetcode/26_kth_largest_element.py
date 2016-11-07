@@ -8,6 +8,8 @@ class Solution:
     # @return {integer}
 
     def findKthLargest(self, nums, k):
+        if k > len(nums):
+            return False
         pivot = random.choice(nums)
         nums1, nums2 = [], []
         for num in nums:
@@ -22,6 +24,8 @@ class Solution:
         return pivot
 
     def findKthSmallest(self, nums, k):
+        if k > len(nums):
+            return False
         pivot = random.choice(nums)
         nums1, nums2 = [], []
         for num in nums:
@@ -40,7 +44,7 @@ def Main():
     a = [5, 4, 7, 1, 2]
     S = Solution()
     print S.findKthLargest(a, 1)
-    print S.findKthSmallest(a, 1)
+    print S.findKthSmallest(a, 6)
 
 if __name__ == '__main__':
     Main()

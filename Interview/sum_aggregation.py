@@ -30,10 +30,10 @@ def sum_aggregation(array, sampling_period):
                     for j in v:
                         sum += j
                     avg = sum/12
-                    print "Sum Aggregation of " + str(date) + " " + str(k) /
-                    + " " + str(sum)
-                    print "Avg Aggregation of " + str(date) + " " + str(k) /
-                    + " " + str(avg)
+                    print "Sum Aggregation of " + str(date) + " " + str(k) \
+                          + " " + str(sum)
+                    print "Avg Aggregation of " + str(date) + " " + str(k) \
+                          + " " + str(avg)
                     sum = 0
                 else:
                     print "Not enough entries for " + str(k)
