@@ -53,7 +53,7 @@ def min_coins_top_down(total, coins, value_map):
     return min
 
 
-sum = 9
+sum = 100
 v = [5, 10, 25]
 value_map = {}
 min_coins_bw_up = min_coins_bottom_up(sum, v)

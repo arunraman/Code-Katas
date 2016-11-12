@@ -1,6 +1,3 @@
-#!/usr/bin/python
-
-
 def largest_continuous_sum(arr):
     if len(arr) == 0:
         return

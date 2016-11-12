@@ -16,7 +16,7 @@ def array_pair_sum(arr, k):
 
 
 def Main():
-    a = [-1, -1, -3, 3, 4]
+    a = [-1, 0, 1]
     print array_pair_sum(a, -2)
 
 if __name__ == '__main__':
