@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import random
-import string
+import string_questions
 
 
 class Person(object):
@@ -37,8 +37,8 @@ def Main():
     str = ""
     token = str.join(
         random.choice(
-            string.ascii_letters +
-            string.digits) for i in xrange(10))
+            string_questions.ascii_letters +
+            string_questions.digits) for i in xrange(10))
     print token
     C.insert_info()
     C.print_info()

@@ -37,9 +37,11 @@ def lengthOfLongestNonRepeatingSubstring(s):
 
 def lengthOfLongestSubstringKDistinct(s, k):
     longest, start, distinct_count, visited = 0, 0, 0, defaultdict(int)
+
     if len(set(s)) < k:
         print "Not enough unique Characters"
         return False
+
     for i, char in enumerate(s):
         if visited[char] == 0:
             distinct_count += 1
@@ -54,12 +56,26 @@ def lengthOfLongestSubstringKDistinct(s, k):
         longest = max(longest, i - start + 1)
     print longest
 
+def substringCount(s, k):
+    d = defaultdict(int)
+    max_sub_str_len = 0
+    for i in xrange(len(s)):
+        sub_str = s[i:i + k]
+        if len(sub_str) == k:
+            if sub_str in d:
+                d[sub_str] += 1
+                if d[sub_str] > max_sub_str_len:
+                    max_sub_str_len = d[sub_str]
+            else:
+                d[sub_str] = 1
+    print max(d.iteritems(), key=itemgetter(1)) ,max_sub_str_len
 
 def Main():
     repeated_characters_string("aacdefaaaabbccc")
-    lengthOfLongestNonRepeatingSubstring("aabc")
+    lengthOfLongestNonRepeatingSubstring("aabca")
     lengthOfLongestRepeatingSubstring("aacdefaaaabbccc")
     lengthOfLongestSubstringKDistinct("aabacbebebe", 3)
+    substringCount("ABCGRETCABCG", 3)
 
 
 if __name__ == '__main__':

@@ -10,4 +10,4 @@ def isPalindrome(s):
         i, j = i + 1, j - 1
     return True
 
-print isPalindrome("A man, a plan, a canal: Panama")
+print isPalindrome("race a car")

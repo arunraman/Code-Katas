@@ -26,8 +26,5 @@ def permutations(string):
     return result
 
 
-def Main():
-    combine("abc")
-    print permutations("abc")
-if __name__ == '__main__':
-    Main()
+combine("abc")
+print permutations("abc")
