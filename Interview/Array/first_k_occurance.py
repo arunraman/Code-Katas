@@ -1,4 +1,3 @@
-#!/usr/bin/python
 '''
 first occurrence of k in a sorted array
 '''

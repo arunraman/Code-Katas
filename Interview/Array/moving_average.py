@@ -1,6 +1,3 @@
-#!/usr/bin/python
-
-
 def moving_average(arr, N):
     avg = []
     for i, j in enumerate(arr):

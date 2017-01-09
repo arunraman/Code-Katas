@@ -19,6 +19,7 @@ class Queue(object):
             self.stack_2.pop()
             self.queue_length -= 1
             self.stack_1[self.queue_length] = None
+            self.stack_2 = []
             for i in xrange(len(self.stack_2)):
                 self.stack_1[i] = self.stack_2.pop()
         else:
@@ -39,7 +40,7 @@ q.show_queue()
 for i in range(5):
     q.enqueue(i)
     q.show_queue()
-for i in xrange(3):
+for i in xrange(2):
     q.dequeue()
     q.show_queue()
 print q.peek()
