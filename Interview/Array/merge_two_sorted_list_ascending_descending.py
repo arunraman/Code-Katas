@@ -1,5 +1,3 @@
-
-
 def merge_two_sorted_ascending_list(A, B):
     m = len(A)
     n = len(B)

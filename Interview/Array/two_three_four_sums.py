@@ -63,6 +63,22 @@ def threeSumClosestToTarget(nums, target):
     return result
 
 
+def threeSumToTarget(nums, target):
+    if nums is None or len(nums) < 3:
+        return False
+    if target is None:
+        return False
+    hash_map = {}
+    for i in xrange(len(nums)):
+        for j in xrange(i, len(nums)):
+            tmp = target - (nums[i] + nums[j])
+            if tmp not in hash_map:
+                hash_map[tmp] = (i, j)
+
+    for i, e in enumerate(nums):
+        if e in hash_map and i not in hash_map[e]:
+            return hash_map[e], i
+
 def fourSum(nums, target):
     from collections import defaultdict
     d = defaultdict(list)
@@ -94,4 +110,5 @@ print twoSum([-1, 0, 1, -3, -4], -4)
 print two_sum_index([2, 7, 11, 15], 9)
 print threeSum([-1, 0, 1, 2, -1, -4])
 print threeSumClosestToTarget([-1, 2, 1, -4], 1)
+print threeSumToTarget([0, 1, 5, 9, 1, 10, 11, 3, -15, -4, 2, 0, -6, 7], 2)
 print fourSum([1, 0, -1, 0, -2, 2], 1)
