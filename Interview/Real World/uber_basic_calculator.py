@@ -27,9 +27,6 @@ class Solution:
 
     def compute(self, operands, operators):
         left, right = operands.pop(), operands.pop()
-        #if len(operands) != len(operators):
-        #    left_operator, right_operator = operators.pop(), operators[-1].pop()
-        #print left_operator, right_operator
         op = operators.pop()
         if op == '+':
             operands.append(left + right)
@@ -41,7 +38,7 @@ class Solution:
             operands.append(float(left) / float(right))
 
 S = Solution()
-# #print S.calculate('1 * 1')
-# print S.calculate('1 * -1')
-# #print S.calculate('1 + 4 - 2')
-# #print S.calculate('1 * 10 - 7 / 4')
+print S.calculate('1 * 1')
+print S.calculate('1 * -1')
+print S.calculate('1 + 4 - 2')
+print S.calculate('1 * 10 - 7 / 4')

@@ -24,6 +24,14 @@ def remove_duplicates_sorted_array_allowed_twice(A):
     print last + 1, A[:last+1]
 
 
+def remove_duplicates_sorted_array_allowed_twice_2(A):
+    i = 0
+    for n in A:
+        if i < 2 or n > A[i - 2]:
+            A[i] = n
+            i += 1
+    print i , A[:i]
+
 def remove_duplicates_array_more_than_twice(A):
     res = []
     for x in A:
@@ -38,12 +46,12 @@ def removeElement(array, element):
     if (len(array) == 1 and array[0] == element) or (len(array) < 1):
         return []
     array = [x for x in array if x!= element]
-
     print array
 
 
 
 remove_duplicates_sorted_array([1, 1, 1, 2, 3])
-remove_duplicates_sorted_array_allowed_twice([1, 1, 1, 2, 3])
+remove_duplicates_sorted_array_allowed_twice([1, 1, 1, 2, 2, 3])
+remove_duplicates_sorted_array_allowed_twice_2([1, 1, 1, 2, 2, 2, 3, 3])
 remove_duplicates_array_more_than_twice([4,3,2,7,8,2,3,1])
 removeElement([1, 2, 3, 4, 5, 2, 2], 2)

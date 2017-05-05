@@ -7,7 +7,7 @@ def check_rows(sudoku):
 
 def check_columns(sudoku):
     for i in xrange(0, 9):
-        columns = [sudoku[j][i] for j in xrange(0, 9)]
+        columns = [x for x in zip(*sudoku)][i]
         if len(set(columns)) < 9:
             return False
     return True
@@ -30,7 +30,6 @@ def check_mini(sudoku):
 
 
 def is_solved(sudoku):
-    print check_mini(sudoku)
     return check_rows(sudoku) and check_columns(sudoku) and check_mini(sudoku)
 
 correct_solution = [[9, 6, 3, 1, 7, 4, 2, 5, 8],

@@ -1,7 +1,7 @@
 def get_dependency(dependency_dict, k):
     dep = set()
     get_dependency_recursive(dependency_dict, k, dep)
-    print dep
+    print list(dep)
 
 def get_dependency_recursive(dependency_dict, k, dep):
     if k not in dependency_dict:
@@ -12,4 +12,4 @@ def get_dependency_recursive(dependency_dict, k, dep):
             dep.add(v)
 
 dependency_dict = {'foo': ['bar', 'baz', 'goo'], 'bar' : ['boo'], 'baz': ['goo', 'a'], 'boo': ['b']}
-get_dependency(dependency_dict, 'bar')
+get_dependency(dependency_dict, 'foo')

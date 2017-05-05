@@ -5,7 +5,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="GitHub" />
-    <orderEntry type="module" module-name="U" />
+    <orderEntry type="module" module-name="BS" />
+    <orderEntry type="module" module-name="Python" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />

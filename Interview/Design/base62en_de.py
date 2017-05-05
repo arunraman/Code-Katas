@@ -1,7 +1,6 @@
 import random
 
-BASE_ALPH = tuple(
-    "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
+BASE_ALPH = tuple("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
 BASE_DICT = dict((c, v) for v, c in enumerate(BASE_ALPH))
 BASE_LEN = len(BASE_ALPH)
 
