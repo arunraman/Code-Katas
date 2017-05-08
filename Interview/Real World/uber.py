@@ -118,7 +118,7 @@ class klargestsumPair(object):
             print self.heap[-k]
 
 
-# k = klargestsumPair()
-# k.generatesumPairs()
-# k.getkthMax(4)
+k = klargestsumPair()
+k.generatesumPairs()
+k.getkthMax(1)
 

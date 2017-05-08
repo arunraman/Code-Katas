@@ -14,4 +14,4 @@ def reverse_vowels(s):
             j -= 1
     return "".join(string)
 
-print reverse_vowels("leetcode")
+print reverse_vowels("lightcode")

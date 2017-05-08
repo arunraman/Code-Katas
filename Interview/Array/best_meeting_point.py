@@ -1,6 +1,6 @@
 def minTotalDistance(grid):
     row_sum = map(sum, grid)
-    col_sum = map(sum, zip(*grid)) # syntax sugar learned from stefan :-)
+    col_sum = map(sum, zip(*grid))
 
     def minTotalDistance1D(vec):
         i, j = -1, len(vec)

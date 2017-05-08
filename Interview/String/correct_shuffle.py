@@ -1,6 +1,3 @@
-#!/usr/bin/python
-
-
 def isCorrectShuffle(str1, str2, str3):
     if len(str1) + len(str2) != len(str3):
         return False
@@ -21,11 +18,7 @@ def isCorrectShuffle(str1, str2, str3):
     return False
 
 
-def Main():
-    if isCorrectShuffle('ab', 'ab', 'aabb'):
-        print "Its a correct Shuffle"
-    else:
-        print "Not a correct Shuffle"
-
-if __name__ == '__main__':
-    Main()
+if isCorrectShuffle('ab', 'ab', 'aabab'):
+    print "Its a correct Shuffle"
+else:
+    print "Not a correct Shuffle"

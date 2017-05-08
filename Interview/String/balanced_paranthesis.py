@@ -15,4 +15,4 @@ def isBalanced(expr):
                 return False
     return len(stack) == 0
 
-print isBalanced("({{}})")
+print isBalanced("][")
