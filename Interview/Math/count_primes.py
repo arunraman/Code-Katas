@@ -1,12 +1,8 @@
-from math import sqrt
-
-
 def countPrimes(n):
     if n <= 2:
         return 0
 
     is_prime = [True] * n
-    # sqr = sqrt(n - 1)
 
     num = 0
     for i in xrange(2, n):

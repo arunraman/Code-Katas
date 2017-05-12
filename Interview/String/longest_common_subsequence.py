@@ -1,6 +1,3 @@
-#!/usr/local/bin/python
-
-
 def longest_common_sequence(str_1, str_2):
     m = len(str_1)
     n = len(str_2)

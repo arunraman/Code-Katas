@@ -21,7 +21,7 @@ def minTotalDistance(grid):
 
 grid = [[1, 0, 0, 0, 1],
         [0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0]
+        [0, 0, 1, 0, 0]
        ]
 
 print minTotalDistance(grid)

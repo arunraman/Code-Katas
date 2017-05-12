@@ -1,15 +1,14 @@
 import re
 
-
 def longest_common_prefix(strs):
     if not strs:
         return ""
 
-    for i in xrange(len(strs[0])):
-        for string in strs[1:]:
-            if i >= len(string) or string[i] != strs[0][i]:
-                return strs[0][:i]
-    return strs[0]
+    for i, letter_group in enumerate(zip(*strs)):
+        if len(set(letter_group)) > 1:
+            return strs[0][:i]
+    else:
+        return min(strs)
 
 print longest_common_prefix(["hello", "heaven", "heavy"])
 print longest_common_prefix(["aas", "a"])
@@ -76,6 +75,7 @@ def findSubstringanyorder(S, L):
 S = "barfoobar"
 L = ["foo", "bar"]
 print findSubstringinorder(S, L)
+# Cheap trick is to find all the permutations of L and feed that in the above function
 print findSubstringanyorder(S, L)
 
 # minimum window substring
@@ -96,3 +96,7 @@ def minWindow(s, t):
     return s[I:J]
 print minWindow('ADOBECODEBANC', 'ABC')
 
+def repeatedSubstringPattern(S):
+    return S in (2 * S)[1:-1]
+
+print repeatedSubstringPattern("abab")

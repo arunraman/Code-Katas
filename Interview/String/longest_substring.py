@@ -4,16 +4,18 @@ import re
 
 
 def repeated_characters_string(str):
+    from collections import Counter
     if len(str) == 0:
         return False
-    dict = defaultdict(int)
+    string_dict = defaultdict(int)
     for c in str:
-        if c in dict:
-            dict[c] += 1
+        if c in string_dict:
+            string_dict[c] += 1
         else:
-            dict[c] = 1
-
-    print max(dict.iteritems(), key=itemgetter(1))
+            string_dict[c] = 1
+    # Get top 5 max values
+    print Counter(string_dict).most_common(5)
+    print max(string_dict.iteritems(), key=itemgetter(1))
 
 
 def lengthOfLongestRepeatingSubstring(s):
@@ -36,8 +38,8 @@ def lengthOfLongestNonRepeatingSubstring(s):
 
 
 def lengthOfLongestSubstringKDistinct(s, k):
-    longest, start, distinct_count, visited = 0, 0, 0, defaultdict(int)
-
+    longest, start, distinct_count = 0, 0, 0
+    visited = defaultdict(int)
     if len(set(s)) < k:
         print "Not enough unique Characters"
         return False
@@ -68,14 +70,14 @@ def substringCount(s, k):
                     max_sub_str_len = d[sub_str]
             else:
                 d[sub_str] = 1
-    print max(d.iteritems(), key=itemgetter(1)) ,max_sub_str_len
+    print max(d.iteritems(), key=itemgetter(1))
 
 def Main():
     repeated_characters_string("aacdefaaaabbccc")
     lengthOfLongestNonRepeatingSubstring("aabca")
     lengthOfLongestRepeatingSubstring("aacdefaaaabbccc")
     lengthOfLongestSubstringKDistinct("aabacbebebe", 3)
-    substringCount("ABCGRETCABCG", 3)
+    substringCount("ABCGRETCABCG", 4)
 
 
 if __name__ == '__main__':
