@@ -121,6 +121,10 @@ class LRUCache3:
                 self.cache.popitem(last=False)
         self.cache[key] = value
 
+    def flush(self, count):
+        if len(self.cache) <= self.capacity:
+            for i in xrange(count):
+                self.cache.popitem(last=False)
 
 
 if __name__ == "__main__":
@@ -128,6 +132,7 @@ if __name__ == "__main__":
     cache.set(1, 1)
     cache.set(2, 2)
     cache.set(3, 3)
+    cache.flush(1)
     print cache.get(1)
     cache.set(4, 4)
     print cache.get(2)
