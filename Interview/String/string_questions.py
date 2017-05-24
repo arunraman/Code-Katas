@@ -42,16 +42,6 @@ def strStr(haystack, needle):
 
 print strStr("abababcdab", "cdab")
 
-def valid_palindrome(str):
-    new_str = "".join(re.findall(r'[a-z0-9]', str.lower(), re.I))
-    for i , j in zip(xrange(len(new_str)/2), xrange(len(new_str) - 1, len(new_str)/2 - 1, -1)):
-        if new_str[i] != new_str[j]:
-            return False
-    return True
-
-print valid_palindrome("A man, a plan, a canal: Panama")
-print valid_palindrome("race a car")
-
 def findSubstringinorder(S, L):
     import re
     substring = ''.join(str for str in L)

@@ -136,3 +136,4 @@ generateCSV()
 string1 = "barbazfoo"
 string2 = "foobarbaz"
 print is_rotation(string1, string2)
+
