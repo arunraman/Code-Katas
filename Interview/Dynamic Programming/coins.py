@@ -1,5 +1,8 @@
 # Coin Change Total Number of ways
 
+# Same as Combination Sum 1 # If in doubt use the one you know and for the second part
+# just do this min(combinationSum1(), key=len)
+
 def coinchangetotalnumberofWays(coins, total):
     table = [0 for k in range(total + 1)]
     table[0] = 1

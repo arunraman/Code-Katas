@@ -64,13 +64,17 @@ grid = [['1','1','1','0','0'],
         ['1','1','0','0','0'],
         ['0','0','0','0','0']]
 
+grid3 = [['1', '0'],
+         ['0','1'],
+         ['1','0']]
+
 I = Islands()
 
-col = 3
-row = 4
+col = 2
+row = 2
 
 grid2 = [[0 for i in xrange(col)] for j in xrange(row)]
-print I.numIslands(grid)
+print I.numIslands(grid3)
 
 print I.numIslands2(3,3 ,[[0,0], [0,1], [1,2], [2,1]])
 

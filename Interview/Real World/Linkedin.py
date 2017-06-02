@@ -24,7 +24,7 @@ def is_rotation(string1, string2):
 
 
 def rotate(str, n):
-    return str[n:] + str[:n]
+    return str[-n:] + str[:-n]
 
 
 # Write a function that will return an array of integers that occur exactly once in a given array of integers.

@@ -1,14 +1,16 @@
-import os, re
+import os
 
-def read_1(file):
-    with open(file) as F:
-        print "Opening ", F.name
-        print F.seek(0,2)
-        for line in F.readlines():
-            match = re.match(r'(\d+ +\w +\d\.\d+)', line)
-            if match:
-                print match.group(1)
+def read_lines(F):
+    for line in F:
+        line = line.strip()
+        if line.startswith('#'):
+            continue
+        if not line:
+            continue
+        yield line
 
 
 if os.path.exists("read1.txt"):
-    read_1("read1.txt")
+    with open("read1.txt") as F:
+        for line in read_lines(F):
+            print line

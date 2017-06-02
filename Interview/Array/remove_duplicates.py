@@ -32,7 +32,9 @@ def remove_duplicates_sorted_array_allowed_twice_2(A):
             i += 1
     print i , A[:i]
 
-def remove_duplicates_array_more_than_twice(A):
+# Where the integers range from 1 <= a[i] <= n (n = size of array)
+# Will not work for any random array, for any random array use dict method
+def remove_all_duplicates_in_array(A):
     res = []
     for x in A:
         if A[abs(x) - 1] < 0:
@@ -40,6 +42,12 @@ def remove_duplicates_array_more_than_twice(A):
         else:
             A[abs(x) - 1] *= -1
     print res
+
+
+def remove_all_duplicates_in_any_array(A):
+    seen = set()
+    uniq = [x for x in A if x not in seen and not seen.add(x)]
+    print uniq
 
 
 def removeElement(array, element):
@@ -53,5 +61,6 @@ def removeElement(array, element):
 remove_duplicates_sorted_array([1, 1, 1, 2, 3])
 remove_duplicates_sorted_array_allowed_twice([1, 1, 1, 2, 2, 3])
 remove_duplicates_sorted_array_allowed_twice_2([1, 1, 1, 2, 2, 2, 3, 3])
-remove_duplicates_array_more_than_twice([4,3,2,7,8,2,3,1])
+remove_all_duplicates_in_array([4,3,2,7,8,2,3,1,7])
+remove_all_duplicates_in_any_array([4,3,100,7,150,2,3,1,7])
 removeElement([1, 2, 3, 4, 5, 2, 2], 2)
