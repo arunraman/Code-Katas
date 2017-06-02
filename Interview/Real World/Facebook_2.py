@@ -9,4 +9,3 @@ class pigLatin(object):
 
     def english_pig_latin(self, sentence):
         pass
-

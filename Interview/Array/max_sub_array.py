@@ -39,6 +39,17 @@ def max_sum_sub_array_1(array):
 print max_sum_sub_array_1([1, 4, -5, -9])
 
 
+def min_sum_sub_array_1(array):
+    if len(array) < 2:
+        return array
+    current = best = 0
+    for x in array:
+        current = min(x, current + x)
+        best = min(best, current)
+    return best
+
+print min_sum_sub_array_1([1, 4, -5, -9])
+
 def min_sum_sub_array_to_target(array, k):
     start = 0
     current_sum = 0
