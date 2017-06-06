@@ -13,7 +13,7 @@ class Solution:
                 R = M
             else:
                 L += 1
-        return num[L]
+        return L
 
 
 class Solution_1:

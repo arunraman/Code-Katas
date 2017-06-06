@@ -17,3 +17,4 @@ for s in sites:
     text = u.read()
     title = re.findall(pat, str(text))
     print title
+

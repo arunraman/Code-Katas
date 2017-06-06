@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-from collections import defaultdict
+from collections import defaultdict, Counter
 import sys
 import os
 import re
@@ -22,10 +22,15 @@ def word_count(file):
 
 
 def Main():
-    if not os.path.exists(sys.argv[1]):
-        sys.exit("Please specify a file name for word count")
+    #if not os.path.exists(sys.argv[1]):
+    #    sys.exit("Please specify a file name for word count")
 
-    word_count(sys.argv[1])
+    #word_count(sys.argv[1])
+
+    # Clever way to do it ;)
+    words = re.findall(r'\w+', open('gutenberg.txt').read().lower())
+    count = Counter(words).most_common(5)
+    print count
 
 if __name__ == '__main__':
     Main()

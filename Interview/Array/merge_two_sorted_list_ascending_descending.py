@@ -54,6 +54,6 @@ def zeropad(A, size):
     A += [0] * size
     return A
 
-merge_two_sorted_ascending_list([1, 3, 5], [4, 6, 7])
+merge_two_sorted_ascending_list([1, 10, 100], [4, 6, 7])
 merge_two_sorted_descending_list([5, 3, 1], [7, 6, 4])
 merge_two_sorted_ascending_descending_list([1, 4, 5], [7, 6, 4])
