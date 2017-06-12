@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22d8285f-236a-4355-8e07-7eadd2e9711e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interview/String/palidrome.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/String/longest_palidromic_substring.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/String/valid_palindrome.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interview/Bit Manipulation/maximum_product_word_lengths.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interview/Bit Manipulation/missing_number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interview/Real World/Linkedin_2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interview/Stack/decode_string.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interview/Stack/reverse_polish_notation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interview/Stack/ternary_expression_parser.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/Utility Functions/combination_of_arrays.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Interview/Array/min_stack.py" afterPath="$PROJECT_DIR$/Interview/Stack/min_stack.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Interview/Utility Functions/weighted_random_number.py" afterPath="$PROJECT_DIR$/Interview/Real World/weighted_random_number.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Code-Katas.iml" afterPath="$PROJECT_DIR$/.idea/Code-Katas.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview/Backtracking/combination_sum.py" afterPath="$PROJECT_DIR$/Interview/Backtracking/combination_sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview/Array/best_meeting_point.py" afterPath="$PROJECT_DIR$/Interview/Array/best_meeting_point.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview/Array/combination_of_arrays.py" afterPath="$PROJECT_DIR$/Interview/Array/combination_of_arrays.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview/Array/median_of_two_sorted_arrays.py" afterPath="$PROJECT_DIR$/Interview/Array/median_of_two_sorted_arrays.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview/Array/merge_two_sorted_list_ascending_descending.py" afterPath="$PROJECT_DIR$/Interview/Array/merge_two_sorted_list_ascending_descending.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview/Array/remove_duplicates.py" afterPath="$PROJECT_DIR$/Interview/Array/remove_duplicates.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview/Array/stream_median.py" afterPath="$PROJECT_DIR$/Interview/Array/stream_median.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview/File IO/word_count.py" afterPath="$PROJECT_DIR$/Interview/File IO/word_count.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview/Real World/Linkedin.py" afterPath="$PROJECT_DIR$/Interview/Real World/Linkedin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview/String/string_questions.py" afterPath="$PROJECT_DIR$/Interview/String/string_questions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview/Search/search_rotated_sorted_array.py" afterPath="$PROJECT_DIR$/Interview/Search/search_rotated_sorted_array.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview/String/permutations.py" afterPath="$PROJECT_DIR$/Interview/String/permutations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python Cookbook Recipe/compress_two_list.py" afterPath="$PROJECT_DIR$/Python Cookbook Recipe/compress_two_list.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,96 +34,125 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Code_Katas$two_three_four_sums.coverage" NAME="two_three_four_sums Coverage Results" MODIFIED="1495134761415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$largest_number_array.coverage" NAME="largest_number_array Coverage Results" MODIFIED="1494013070665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Math" />
-    <SUITE FILE_PATH="coverage/Code_Katas$Linkedin.coverage" NAME="Linkedin Coverage Results" MODIFIED="1495498053017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
-    <SUITE FILE_PATH="coverage/Code-Katas$setup.coverage" NAME="setup Coverage Results" MODIFIED="1486654170665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../dotfiles" />
+    <SUITE FILE_PATH="coverage/Code_Katas$largest_number_array.coverage" NAME="largest_number_array Coverage Results" MODIFIED="1496363076726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Math" />
     <SUITE FILE_PATH="coverage/Code_Katas$flatten.coverage" NAME="flatten Coverage Results" MODIFIED="1494391814187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$combination_of_arrays.coverage" NAME="combination_of_arrays Coverage Results" MODIFIED="1494391697072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$next_greater_element.coverage" NAME="next_greater_element Coverage Results" MODIFIED="1495152705451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$longest_common_subsequence.coverage" NAME="longest_common_subsequence Coverage Results" MODIFIED="1494299675651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
-    <SUITE FILE_PATH="coverage/Code-Katas$invite.coverage" NAME="invite Coverage Results" MODIFIED="1490294920489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/BS" />
+    <SUITE FILE_PATH="coverage/Code_Katas$next_greater_element.coverage" NAME="next_greater_element Coverage Results" MODIFIED="1497201514316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
     <SUITE FILE_PATH="coverage/Code-Katas$remove_Duplicates.coverage" NAME="remove_Duplicates Coverage Results" MODIFIED="1487034040150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
     <SUITE FILE_PATH="coverage/Code_Katas$uber_basic_calculator.coverage" NAME="uber_basic_calculator Coverage Results" MODIFIED="1493834716584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
-    <SUITE FILE_PATH="coverage/Code-Katas$min_stack.coverage" NAME="min_stack Coverage Results" MODIFIED="1483721765912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$correct_shuffle.coverage" NAME="correct_shuffle Coverage Results" MODIFIED="1494220591796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
-    <SUITE FILE_PATH="coverage/Code_Katas$weighted_random_number.coverage" NAME="weighted_random_number Coverage Results" MODIFIED="1494311278592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$number_of_islands.coverage" NAME="number_of_islands Coverage Results" MODIFIED="1494391670288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Search" />
+    <SUITE FILE_PATH="coverage/Code_Katas$number_of_islands.coverage" NAME="number_of_islands Coverage Results" MODIFIED="1496338497927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Search" />
     <SUITE FILE_PATH="coverage/Code-Katas$uber_1.coverage" NAME="uber_1 Coverage Results" MODIFIED="1486966684125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
-    <SUITE FILE_PATH="coverage/Code_Katas$airbnb.coverage" NAME="airbnb Coverage Results" MODIFIED="1495150231023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
-    <SUITE FILE_PATH="coverage/Code_Katas$remove_duplicates.coverage" NAME="remove_duplicates Coverage Results" MODIFIED="1493928989095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$longest_substring.coverage" NAME="longest_substring Coverage Results" MODIFIED="1494383932526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
-    <SUITE FILE_PATH="coverage/Code-Katas$sum_three_array.coverage" NAME="sum_three_array Coverage Results" MODIFIED="1487034447001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$longest_consecutive_sequence.coverage" NAME="longest_consecutive_sequence Coverage Results" MODIFIED="1493852317400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code-Katas$queue_stacks.coverage" NAME="queue_stacks Coverage Results" MODIFIED="1483722426851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Queue" />
-    <SUITE FILE_PATH="coverage/Code-Katas$combination_sum.coverage" NAME="combination_sum Coverage Results" MODIFIED="1486967490432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$min_coins_change.coverage" NAME="min_coins_change Coverage Results" MODIFIED="1495135802045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Dynamic Programming" />
+    <SUITE FILE_PATH="coverage/Code_Katas$airbnb.coverage" NAME="airbnb Coverage Results" MODIFIED="1496730234239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
+    <SUITE FILE_PATH="coverage/Code_Katas$compress_two_list.coverage" NAME="compress_two_list Coverage Results" MODIFIED="1496700113710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Cookbook Recipe" />
+    <SUITE FILE_PATH="coverage/Code_Katas$remove_duplicates.coverage" NAME="remove_duplicates Coverage Results" MODIFIED="1497249966945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$read_write.coverage" NAME="read_write Coverage Results" MODIFIED="1496111816147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/File IO" />
     <SUITE FILE_PATH="coverage/Code_Katas$json_file_handle.coverage" NAME="json_file_handle Coverage Results" MODIFIED="1494382083545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/File IO" />
     <SUITE FILE_PATH="coverage/Code_Katas$combination_of_arrays__1_.coverage" NAME="combination_of_arrays (1) Coverage Results" MODIFIED="1494393609854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Utility Functions" />
-    <SUITE FILE_PATH="coverage/Code_Katas$permutation_combination_string.coverage" NAME="permutation_combination_string Coverage Results" MODIFIED="1494387787543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
-    <SUITE FILE_PATH="coverage/Code_Katas$balanced_paranthesis.coverage" NAME="balanced_paranthesis Coverage Results" MODIFIED="1494191250622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
-    <SUITE FILE_PATH="coverage/Code_Katas$max_sub_array.coverage" NAME="max_sub_array Coverage Results" MODIFIED="1495150406289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$balanced_paranthesis.coverage" NAME="balanced_paranthesis Coverage Results" MODIFIED="1497238498056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code_Katas$set_operations.coverage" NAME="set_operations Coverage Results" MODIFIED="1496434597256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
     <SUITE FILE_PATH="coverage/Code-Katas$two_three_four_sums.coverage" NAME="two_three_four_sums Coverage Results" MODIFIED="1487054480538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$text_justification.coverage" NAME="text-justification Coverage Results" MODIFIED="1493855717512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Design" />
-    <SUITE FILE_PATH="coverage/Code_Katas$json_parser.coverage" NAME="json_parser Coverage Results" MODIFIED="1494013339758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
-    <SUITE FILE_PATH="coverage/Code-Katas$uber.coverage" NAME="uber Coverage Results" MODIFIED="1487214948361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
-    <SUITE FILE_PATH="coverage/Code_Katas$countSmaller.coverage" NAME="countSmaller Coverage Results" MODIFIED="1494259355173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Math" />
-    <SUITE FILE_PATH="coverage/Code-Katas$edit_distance.coverage" NAME="edit_distance Coverage Results" MODIFIED="1486962488995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
-    <SUITE FILE_PATH="coverage/Code-Katas$json_parser.coverage" NAME="json_parser Coverage Results" MODIFIED="1486966386739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
-    <SUITE FILE_PATH="coverage/Code_Katas$telephone_words.coverage" NAME="telephone_words Coverage Results" MODIFIED="1494391668121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
-    <SUITE FILE_PATH="coverage/Code_Katas$Fenwick_Tree.coverage" NAME="Fenwick_Tree Coverage Results" MODIFIED="1491264027268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Trees" />
+    <SUITE FILE_PATH="coverage/Code_Katas$text_justification.coverage" NAME="text_justification Coverage Results" MODIFIED="1496764770968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code_Katas$median_of_two_sorted_arrays.coverage" NAME="median_of_two_sorted_arrays Coverage Results" MODIFIED="1497218235830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
     <SUITE FILE_PATH="coverage/Code_Katas$rotate_2d_matrix.coverage" NAME="rotate_2d_matrix Coverage Results" MODIFIED="1494311902867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
     <SUITE FILE_PATH="coverage/Code-Katas$balanced_paranthesis.coverage" NAME="balanced_paranthesis Coverage Results" MODIFIED="1486960736501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/U" />
-    <SUITE FILE_PATH="coverage/Code_Katas$best_meeting_point.coverage" NAME="best_meeting_point Coverage Results" MODIFIED="1494415532348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
     <SUITE FILE_PATH="coverage/Code_Katas$num_coin_path.coverage" NAME="num_coin_path Coverage Results" MODIFIED="1495484350862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Dynamic Programming" />
-    <SUITE FILE_PATH="coverage/Code_Katas$lru_cache.coverage" NAME="lru-cache Coverage Results" MODIFIED="1494904279145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Design" />
     <SUITE FILE_PATH="coverage/Code-Katas$collections_example.coverage" NAME="collections_example Coverage Results" MODIFIED="1486967159288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Utility Functions" />
     <SUITE FILE_PATH="coverage/Code_Katas$best_time_to_buy_sell_stock.coverage" NAME="best-time-to-buy-sell-stock Coverage Results" MODIFIED="1493851959095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
     <SUITE FILE_PATH="coverage/Code_Katas$string_questions.coverage" NAME="string_questions Coverage Results" MODIFIED="1494390391415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
     <SUITE FILE_PATH="coverage/Code-Katas$min_coins_change.coverage" NAME="min_coins_change Coverage Results" MODIFIED="1486962727699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Dynamic Programming" />
+    <SUITE FILE_PATH="coverage/Code_Katas$linked_2.coverage" NAME="linked_2 Coverage Results" MODIFIED="1496776193248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
+    <SUITE FILE_PATH="coverage/Code_Katas$decode_string.coverage" NAME="decode_string Coverage Results" MODIFIED="1497117969756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Stack" />
+    <SUITE FILE_PATH="coverage/Code_Katas$count_primes.coverage" NAME="count_primes Coverage Results" MODIFIED="1494308678719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Math" />
+    <SUITE FILE_PATH="coverage/Code_Katas$sort_in_wave.coverage" NAME="sort_in_wave Coverage Results" MODIFIED="1496181593136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Sort" />
+    <SUITE FILE_PATH="coverage/Code_Katas$dependency.coverage" NAME="dependency Coverage Results" MODIFIED="1495556284224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Recursion" />
+    <SUITE FILE_PATH="coverage/Code_Katas$cidr_ip_address_range.coverage" NAME="cidr_ip_address_range Coverage Results" MODIFIED="1496176110097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Utility Functions" />
+    <SUITE FILE_PATH="coverage/Code_Katas$Facebook.coverage" NAME="Facebook Coverage Results" MODIFIED="1492197567742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
+    <SUITE FILE_PATH="coverage/Code-Katas$num_coin_path.coverage" NAME="num_coin_path Coverage Results" MODIFIED="1486962552674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Dynamic Programming" />
+    <SUITE FILE_PATH="coverage/Code_Katas$next_permutation.coverage" NAME="next_permutation Coverage Results" MODIFIED="1493848911302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code-Katas$max_sub_array.coverage" NAME="max_sub_array Coverage Results" MODIFIED="1483721623505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$base62en_de.coverage" NAME="base62en_de Coverage Results" MODIFIED="1495690372008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Design" />
+    <SUITE FILE_PATH="coverage/Code_Katas$single_number.coverage" NAME="single_number Coverage Results" MODIFIED="1496937869371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Bit Manipulation" />
+    <SUITE FILE_PATH="coverage/Code-Katas$anagrams.coverage" NAME="anagrams Coverage Results" MODIFIED="1486960699542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/U" />
+    <SUITE FILE_PATH="coverage/Code_Katas$coins.coverage" NAME="coins Coverage Results" MODIFIED="1496364145038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Dynamic Programming" />
+    <SUITE FILE_PATH="coverage/Code_Katas$invite.coverage" NAME="invite Coverage Results" MODIFIED="1495084968235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/BS" />
+    <SUITE FILE_PATH="coverage/Code_Katas$minmaxDifference.coverage" NAME="minmaxDifference Coverage Results" MODIFIED="1496382778048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/CodeFight" />
+    <SUITE FILE_PATH="coverage/Code_Katas$maximum_product_word_lengths.coverage" NAME="maximum_product_word_lengths Coverage Results" MODIFIED="1496937919717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Bit Manipulation" />
+    <SUITE FILE_PATH="coverage/Code_Katas$uber.coverage" NAME="uber Coverage Results" MODIFIED="1494259234997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
+    <SUITE FILE_PATH="coverage/Code_Katas$excel_column.coverage" NAME="excel_column Coverage Results" MODIFIED="1494415712890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/CSV Processing" />
+    <SUITE FILE_PATH="coverage/Code_Katas$stream_median.coverage" NAME="stream_median Coverage Results" MODIFIED="1496892016145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$combination_sum.coverage" NAME="combination_sum Coverage Results" MODIFIED="1496364158448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Backtracking" />
+    <SUITE FILE_PATH="coverage/Code_Katas$cartesian_distance.coverage" NAME="cartesian_distance Coverage Results" MODIFIED="1494308369652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/File IO" />
+    <SUITE FILE_PATH="coverage/Code_Katas$rest.coverage" NAME="rest Coverage Results" MODIFIED="1496122977026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/API" />
+    <SUITE FILE_PATH="coverage/Code_Katas$anagrams.coverage" NAME="anagrams Coverage Results" MODIFIED="1496337143853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code_Katas$merge_two_sorted_list_ascending_descending.coverage" NAME="merge_two_sorted_list_ascending_descending Coverage Results" MODIFIED="1497221108320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$dna_sequencing.coverage" NAME="dna_sequencing Coverage Results" MODIFIED="1495690648544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code_Katas$two_three_four_sums.coverage" NAME="two_three_four_sums Coverage Results" MODIFIED="1497216372780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$Linkedin.coverage" NAME="Linkedin Coverage Results" MODIFIED="1496779534306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
+    <SUITE FILE_PATH="coverage/Code_Katas$reverse_polish_notation.coverage" NAME="reverse_polish_notation Coverage Results" MODIFIED="1497111984176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Stack" />
+    <SUITE FILE_PATH="coverage/Code-Katas$setup.coverage" NAME="setup Coverage Results" MODIFIED="1486654170665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../dotfiles" />
+    <SUITE FILE_PATH="coverage/Code_Katas$combination_of_arrays.coverage" NAME="combination_of_arrays Coverage Results" MODIFIED="1497215324953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$longest_common_subsequence.coverage" NAME="longest_common_subsequence Coverage Results" MODIFIED="1494299675651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code-Katas$invite.coverage" NAME="invite Coverage Results" MODIFIED="1490294920489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/BS" />
+    <SUITE FILE_PATH="coverage/Code-Katas$min_stack.coverage" NAME="min_stack Coverage Results" MODIFIED="1483721765912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$correct_shuffle.coverage" NAME="correct_shuffle Coverage Results" MODIFIED="1494220591796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code_Katas$weighted_random_number.coverage" NAME="weighted_random_number Coverage Results" MODIFIED="1494311278592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$word_search.coverage" NAME="word_search Coverage Results" MODIFIED="1496425878926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Backtracking" />
+    <SUITE FILE_PATH="coverage/Code_Katas$longest_substring.coverage" NAME="longest_substring Coverage Results" MODIFIED="1494383932526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code-Katas$sum_three_array.coverage" NAME="sum_three_array Coverage Results" MODIFIED="1487034447001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$search_for_a_range.coverage" NAME="search_for_a_range Coverage Results" MODIFIED="1496764773253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Search" />
+    <SUITE FILE_PATH="coverage/Code_Katas$longest_consecutive_sequence.coverage" NAME="longest_consecutive_sequence Coverage Results" MODIFIED="1493852317400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code-Katas$queue_stacks.coverage" NAME="queue_stacks Coverage Results" MODIFIED="1483722426851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Queue" />
+    <SUITE FILE_PATH="coverage/Code-Katas$combination_sum.coverage" NAME="combination_sum Coverage Results" MODIFIED="1486967490432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$min_coins_change.coverage" NAME="min_coins_change Coverage Results" MODIFIED="1495135802045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Dynamic Programming" />
+    <SUITE FILE_PATH="coverage/Code_Katas$permutation_combination_string.coverage" NAME="permutation_combination_string Coverage Results" MODIFIED="1497250895400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code_Katas$max_sub_array.coverage" NAME="max_sub_array Coverage Results" MODIFIED="1496428005955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$contains_duplicate.coverage" NAME="contains_duplicate Coverage Results" MODIFIED="1496421457508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Hash Table" />
+    <SUITE FILE_PATH="coverage/Code_Katas$json_parser.coverage" NAME="json_parser Coverage Results" MODIFIED="1494013339758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code-Katas$uber.coverage" NAME="uber Coverage Results" MODIFIED="1487214948361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
+    <SUITE FILE_PATH="coverage/Code_Katas$countSmaller.coverage" NAME="countSmaller Coverage Results" MODIFIED="1496363252576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Math" />
+    <SUITE FILE_PATH="coverage/Code-Katas$edit_distance.coverage" NAME="edit_distance Coverage Results" MODIFIED="1486962488995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code-Katas$json_parser.coverage" NAME="json_parser Coverage Results" MODIFIED="1486966386739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code_Katas$telephone_words.coverage" NAME="telephone_words Coverage Results" MODIFIED="1494391668121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code_Katas$Fenwick_Tree.coverage" NAME="Fenwick_Tree Coverage Results" MODIFIED="1496208764126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Trees" />
+    <SUITE FILE_PATH="coverage/Code_Katas$wildcard_matching__1_.coverage" NAME="wildcard_matching (1) Coverage Results" MODIFIED="1496270145274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Dynamic Programming" />
+    <SUITE FILE_PATH="coverage/Code_Katas$best_meeting_point.coverage" NAME="best_meeting_point Coverage Results" MODIFIED="1497215299325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$lru_cache.coverage" NAME="lru-cache Coverage Results" MODIFIED="1494904279145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Design" />
     <SUITE FILE_PATH="coverage/Code_Katas$reverse_vowels.coverage" NAME="reverse_vowels Coverage Results" MODIFIED="1494197512065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
     <SUITE FILE_PATH="coverage/Code_Katas$isomorphic_strings.coverage" NAME="isomorphic_strings Coverage Results" MODIFIED="1494382154601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
     <SUITE FILE_PATH="coverage/Code_Katas$longest_palidromic_substring.coverage" NAME="longest_palidromic_substring Coverage Results" MODIFIED="1495556286809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
-    <SUITE FILE_PATH="coverage/Code_Katas$count_primes.coverage" NAME="count_primes Coverage Results" MODIFIED="1494308678719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Math" />
-    <SUITE FILE_PATH="coverage/Code_Katas$dependency.coverage" NAME="dependency Coverage Results" MODIFIED="1495556284224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Recursion" />
-    <SUITE FILE_PATH="coverage/Code_Katas$minimum_rotated_sorted.coverage" NAME="minimum_rotated_sorted Coverage Results" MODIFIED="1493937567215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
+    <SUITE FILE_PATH="coverage/Code_Katas$wildcard_matching.coverage" NAME="wildcard_matching Coverage Results" MODIFIED="1496270010163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
     <SUITE FILE_PATH="coverage/Code_Katas$tweet_chunks.coverage" NAME="tweet_chunks Coverage Results" MODIFIED="1494390870105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
-    <SUITE FILE_PATH="coverage/Code_Katas$Facebook.coverage" NAME="Facebook Coverage Results" MODIFIED="1492197567742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
-    <SUITE FILE_PATH="coverage/Code-Katas$num_coin_path.coverage" NAME="num_coin_path Coverage Results" MODIFIED="1486962552674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Dynamic Programming" />
+    <SUITE FILE_PATH="coverage/Code_Katas$Facebook_2.coverage" NAME="Facebook_2 Coverage Results" MODIFIED="1496383857649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
+    <SUITE FILE_PATH="coverage/Code_Katas$minimum_rotated_sorted.coverage" NAME="minimum_rotated_sorted Coverage Results" MODIFIED="1496767444859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
     <SUITE FILE_PATH="coverage/Code_Katas$tail_file.coverage" NAME="tail_file Coverage Results" MODIFIED="1491326975841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Utility Functions" />
-    <SUITE FILE_PATH="coverage/Code_Katas$next_permutation.coverage" NAME="next_permutation Coverage Results" MODIFIED="1493848911302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
     <SUITE FILE_PATH="coverage/Code-Katas$Linkedin.coverage" NAME="Linkedin Coverage Results" MODIFIED="1490473604734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
+    <SUITE FILE_PATH="coverage/Code_Katas$flatten_list_iterator.coverage" NAME="flatten_list_iterator Coverage Results" MODIFIED="1496248684306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Stack" />
+    <SUITE FILE_PATH="coverage/Code_Katas$ternary_expression_parser.coverage" NAME="ternary_expression_parser Coverage Results" MODIFIED="1497133801558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Stack" />
     <SUITE FILE_PATH="coverage/Code_Katas$rotate_function.coverage" NAME="rotate_function Coverage Results" MODIFIED="1493937021067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
     <SUITE FILE_PATH="coverage/Code_Katas$generate_random_alphanumberic.coverage" NAME="generate_random_alphanumberic Coverage Results" MODIFIED="1494393594238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Utility Functions" />
-    <SUITE FILE_PATH="coverage/Code-Katas$max_sub_array.coverage" NAME="max_sub_array Coverage Results" MODIFIED="1483721623505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$merge_k_sorted_arrays.coverage" NAME="merge_k_sorted_arrays Coverage Results" MODIFIED="1494413157894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$base62en_de.coverage" NAME="base62en_de Coverage Results" MODIFIED="1493855696897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Design" />
-    <SUITE FILE_PATH="coverage/Code-Katas$anagrams.coverage" NAME="anagrams Coverage Results" MODIFIED="1486960699542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/U" />
+    <SUITE FILE_PATH="coverage/Code_Katas$merge_k_sorted_arrays.coverage" NAME="merge_k_sorted_arrays Coverage Results" MODIFIED="1496427256649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
     <SUITE FILE_PATH="coverage/Code-Katas$merge_k_sorted_arrays.coverage" NAME="merge_k_sorted_arrays Coverage Results" MODIFIED="1487143197645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
     <SUITE FILE_PATH="coverage/Code_Katas$reverse_string.coverage" NAME="reverse_string Coverage Results" MODIFIED="1494388819459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
-    <SUITE FILE_PATH="coverage/Code_Katas$coins.coverage" NAME="coins Coverage Results" MODIFIED="1495181706452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Dynamic Programming" />
     <SUITE FILE_PATH="coverage/Code_Katas$sudoku_sol_check.coverage" NAME="sudoku_sol_check Coverage Results" MODIFIED="1494005341114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Dynamic Programming" />
+    <SUITE FILE_PATH="coverage/Code_Katas$missing_number.coverage" NAME="missing_number Coverage Results" MODIFIED="1496894276015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Bit Manipulation" />
     <SUITE FILE_PATH="coverage/Code-Katas$string_parsing.coverage" NAME="string_parsing Coverage Results" MODIFIED="1483722857326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
-    <SUITE FILE_PATH="coverage/Code_Katas$invite.coverage" NAME="invite Coverage Results" MODIFIED="1495084968235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/BS" />
-    <SUITE FILE_PATH="coverage/Code_Katas$uber.coverage" NAME="uber Coverage Results" MODIFIED="1494259234997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
     <SUITE FILE_PATH="coverage/Code_Katas$word_distance.coverage" NAME="word_distance Coverage Results" MODIFIED="1494390516369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code_Katas$word_count.coverage" NAME="word_count Coverage Results" MODIFIED="1497205869270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/File IO" />
     <SUITE FILE_PATH="coverage/Code_Katas$edit_distance.coverage" NAME="edit_distance Coverage Results" MODIFIED="1494381924753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
     <SUITE FILE_PATH="coverage/Code_Katas$intervals.coverage" NAME="intervals Coverage Results" MODIFIED="1494310060129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Sort" />
-    <SUITE FILE_PATH="coverage/Code_Katas$excel_column.coverage" NAME="excel_column Coverage Results" MODIFIED="1494415712890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/CSV Processing" />
+    <SUITE FILE_PATH="coverage/Code_Katas$palidrome.coverage" NAME="palidrome Coverage Results" MODIFIED="1497219371846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code_Katas$search_rotated_sorted_array.coverage" NAME="search_rotated_sorted_array Coverage Results" MODIFIED="1497238501338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Search" />
     <SUITE FILE_PATH="coverage/Code-Katas$sort_10million_objects.coverage" NAME="sort_10million_objects Coverage Results" MODIFIED="1483761324292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Real World" />
     <SUITE FILE_PATH="coverage/Code_Katas$first_missing_positive.coverage" NAME="first_missing_positive Coverage Results" MODIFIED="1493849391321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$permutations.coverage" NAME="permutations Coverage Results" MODIFIED="1494387936405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
-    <SUITE FILE_PATH="coverage/Code_Katas$combination_sum.coverage" NAME="combination_sum Coverage Results" MODIFIED="1495484352893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Backtracking" />
-    <SUITE FILE_PATH="coverage/Code_Katas$cartesian_distance.coverage" NAME="cartesian_distance Coverage Results" MODIFIED="1494308369652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/File IO" />
+    <SUITE FILE_PATH="coverage/Code_Katas$permutations.coverage" NAME="permutations Coverage Results" MODIFIED="1497250897612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
     <SUITE FILE_PATH="coverage/Code_Katas$flatten_list.coverage" NAME="flatten_list Coverage Results" MODIFIED="1492660357994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$anagrams.coverage" NAME="anagrams Coverage Results" MODIFIED="1494191662839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
+    <SUITE FILE_PATH="coverage/Code_Katas$house_robber.coverage" NAME="house_robber Coverage Results" MODIFIED="1496388628703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Dynamic Programming" />
     <SUITE FILE_PATH="coverage/Code_Katas$shuffle_array.coverage" NAME="shuffle_array Coverage Results" MODIFIED="1494286679852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Array" />
-    <SUITE FILE_PATH="coverage/Code_Katas$dna_sequencing.coverage" NAME="dna_sequencing Coverage Results" MODIFIED="1494259216606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/String" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
@@ -116,13 +161,58 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Code-Katas" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Linkedin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Interview/Real World/Linkedin.py">
+      <file leaf-file-name="balanced_paranthesis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Interview/String/balanced_paranthesis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="131" column="18" lean-forward="true" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
+            <state relative-caret-position="234">
+              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_rotated_sorted_array.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Interview/Search/search_rotated_sorted_array.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permutation_combination_string.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Interview/String/permutation_combination_string.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anagrams.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Interview/String/anagrams.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permutations.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Interview/String/permutations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -146,6 +236,24 @@
       <find>sub</find>
       <find>lon</find>
       <find>Counter</find>
+      <find>house ro</find>
+      <find>hous</find>
+      <find>house r</find>
+      <find>house obbe</find>
+      <find>house obb</find>
+      <find>house ob</find>
+      <find>house o</find>
+      <find>house</find>
+      <find>house</find>
+      <find>house robber</find>
+      <find>c</find>
+      <find>counter</find>
+      <find>C</find>
+      <find>Collectio</find>
+      <find>Collection</find>
+      <find>Collections.</find>
+      <find>Collections.Cou</find>
+      <find>h</find>
     </findStrings>
     <replaceStrings>
       <replace>start</replace>
@@ -157,57 +265,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Interview/Array/flatten.py" />
-        <option value="$PROJECT_DIR$/Interview/Trees/add-and-search-word-data-structure-design.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/dutch_national_flag.py" />
-        <option value="$PROJECT_DIR$/Interview/Real World/uber_basic_calculator.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/next_permutation.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/rotate_2d_matrix.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/best-time-to-buy-sell-stock.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/longest_consecutive_sequence.py" />
-        <option value="$PROJECT_DIR$/Interview/Design/base62en_de.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/remove_duplicates.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/rotate_function.py" />
-        <option value="$PROJECT_DIR$/Interview/Dynamic Programming/dependency.py" />
-        <option value="$PROJECT_DIR$/Interview/Dynamic Programming/sudoku_sol_check.py" />
-        <option value="$PROJECT_DIR$/Interview/Math/largest_number_array.py" />
-        <option value="$PROJECT_DIR$/Interview/String/balanced_paranthesis.py" />
-        <option value="$PROJECT_DIR$/Interview/String/anagrams.py" />
-        <option value="$PROJECT_DIR$/Interview/String/reverse_vowels.py" />
-        <option value="$PROJECT_DIR$/Interview/String/correct_shuffle.py" />
-        <option value="$PROJECT_DIR$/Interview/String/dna_sequencing.py" />
-        <option value="$PROJECT_DIR$/Interview/Real World/uber.py" />
-        <option value="$PROJECT_DIR$/Interview/Math/countSmaller.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/shuffle_array.py" />
-        <option value="$PROJECT_DIR$/Interview/String/longest_common_subsequence.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/next_greater_element.py" />
-        <option value="$PROJECT_DIR$/Interview/File IO/cartesian_distance.py" />
-        <option value="$PROJECT_DIR$/Interview/Math/count_primes.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/combination_of_arrays.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/weighted_random_number.py" />
-        <option value="$PROJECT_DIR$/Interview/String/edit_distance.py" />
-        <option value="$PROJECT_DIR$/Interview/File IO/json_file_handle.py" />
-        <option value="$PROJECT_DIR$/Interview/String/isomorphic_strings.py" />
-        <option value="$PROJECT_DIR$/Interview/String/longest_substring.py" />
-        <option value="$PROJECT_DIR$/Interview/String/permutation_combination_string.py" />
-        <option value="$PROJECT_DIR$/Interview/Search/number_of_islands.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/best_meeting_point.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/first_k_occurance.py" />
-        <option value="$PROJECT_DIR$/Interview/CSV Processing/excel_column.py" />
-        <option value="$PROJECT_DIR$/Interview/Design/lru-cache.py" />
-        <option value="$USER_HOME$/Desktop/BS/invite.py" />
-        <option value="$USER_HOME$/Desktop/BS/Data.txt" />
-        <option value="$PROJECT_DIR$/Interview/Array/two_three_four_sums.py" />
         <option value="$PROJECT_DIR$/Interview/Dynamic Programming/min_coins_change.py" />
-        <option value="$PROJECT_DIR$/Interview/Array/max_sub_array.py" />
-        <option value="$PROJECT_DIR$/Interview/Real World/airbnb.py" />
-        <option value="$PROJECT_DIR$/Interview/Dynamic Programming/coins.py" />
-        <option value="$PROJECT_DIR$/Interview/Backtracking/combination_sum.py" />
-        <option value="$PROJECT_DIR$/Interview/Real World/Linkedin.py" />
         <option value="$PROJECT_DIR$/Interview/String/longest_palidromic_substring.py" />
         <option value="$PROJECT_DIR$/Interview/String/valid_palindrome.py" />
+        <option value="$PROJECT_DIR$/Interview/String/dna_sequencing.py" />
+        <option value="$PROJECT_DIR$/Interview/Design/base62en_de.py" />
+        <option value="$PROJECT_DIR$/Interview/File IO/read_write.py" />
+        <option value="$PROJECT_DIR$/Interview/API/rest.py" />
+        <option value="$PROJECT_DIR$/Interview/Utility Functions/cidr_ip_address_range.py" />
+        <option value="$PROJECT_DIR$/Interview/Sort/sort_in_wave.py" />
         <option value="$PROJECT_DIR$/Interview/String/string_questions.py" />
+        <option value="$PROJECT_DIR$/Interview/Stack/flatten_list_iterator.py" />
+        <option value="$PROJECT_DIR$/Interview/String/wildcard_matching.py" />
+        <option value="$PROJECT_DIR$/Interview/Dynamic Programming/wildcard_matching.py" />
+        <option value="$PROJECT_DIR$/Interview/Search/number_of_islands.py" />
+        <option value="$PROJECT_DIR$/Interview/String/anagrams.py" />
+        <option value="$PROJECT_DIR$/Interview/Math/largest_number_array.py" />
         <option value="$PROJECT_DIR$/Interview/String/palidrome.py" />
+        <option value="$PROJECT_DIR$/Interview/Backtracking/combination_sum.py" />
+        <option value="$PROJECT_DIR$/Interview/Dynamic Programming/coins.py" />
+        <option value="$PROJECT_DIR$/Interview/Dynamic Programming/house_robber.py" />
+        <option value="$PROJECT_DIR$/Interview/Hash Table/contains_duplicate.py" />
+        <option value="$PROJECT_DIR$/Interview/Backtracking/word_search.py" />
+        <option value="$PROJECT_DIR$/Interview/Real World/Facebook_2.py" />
+        <option value="$PROJECT_DIR$/Interview/Array/max_sub_array.py" />
+        <option value="$PROJECT_DIR$/Interview/Array/set_operations.py" />
+        <option value="$PROJECT_DIR$/Python Cookbook Recipe/compress_two_list.py" />
+        <option value="$PROJECT_DIR$/Interview/Search/search_for_a_range.py" />
+        <option value="$PROJECT_DIR$/Interview/Pattern Matching/re_example.py" />
+        <option value="$PROJECT_DIR$/Interview/Real World/airbnb.py" />
+        <option value="$PROJECT_DIR$/Interview/String/text_justification.py" />
+        <option value="$PROJECT_DIR$/Interview/Array/minimum_rotated_sorted.py" />
+        <option value="$PROJECT_DIR$/Interview/Real World/Linkedin.py" />
+        <option value="$PROJECT_DIR$/Interview/Real World/linked_2.py" />
+        <option value="$PROJECT_DIR$/Interview/Array/sliding_window_maximum.py" />
+        <option value="$PROJECT_DIR$/Interview/Array/stream_median.py" />
+        <option value="$PROJECT_DIR$/Interview/Bit Manipulation/missing_number.py" />
+        <option value="$PROJECT_DIR$/Interview/Bit Manipulation/single_number.py" />
+        <option value="$PROJECT_DIR$/Interview/Bit Manipulation/maximum_product_word_lengths.py" />
+        <option value="$PROJECT_DIR$/Interview/Stack/reverse_polish_notation.py" />
+        <option value="$PROJECT_DIR$/Interview/Stack/decode_string.py" />
+        <option value="$PROJECT_DIR$/Interview/Array/combination_of_arrays.py" />
+        <option value="$PROJECT_DIR$/Interview/Stack/ternary_expression_parser.py" />
+        <option value="$PROJECT_DIR$/Interview/File IO/hash_test.txt" />
+        <option value="$PROJECT_DIR$/Interview/File IO/word_count.py" />
+        <option value="$PROJECT_DIR$/Interview/Array/best_meeting_point.py" />
+        <option value="$PROJECT_DIR$/Interview/Array/median_of_two_sorted_arrays.py" />
+        <option value="$PROJECT_DIR$/Interview/Array/merge_two_sorted_list_ascending_descending.py" />
+        <option value="$PROJECT_DIR$/Interview/Search/search_rotated_sorted_array.py" />
+        <option value="$PROJECT_DIR$/Interview/Array/remove_duplicates.py" />
+        <option value="$PROJECT_DIR$/Interview/String/permutations.py" />
+        <option value="$PROJECT_DIR$/Interview/String/permutation_combination_string.py" />
       </list>
     </option>
   </component>
@@ -224,8 +332,24 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Python</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -242,6 +366,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -286,31 +411,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Code-Katas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Code-Katas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Real World" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -319,18 +421,26 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="DockerRegistry" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/aruraman/GitHub/Code-Katas/Interview/Array/sliding_window_maximum.py" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="BS" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="BS" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Interview/Recursion" />
-      <recent name="$PROJECT_DIR$/Interview/Array" />
-      <recent name="$PROJECT_DIR$/Interview/Backtracking" />
-      <recent name="$PROJECT_DIR$/Interview" />
+      <recent name="$PROJECT_DIR$/Interview/File IO" />
       <recent name="$PROJECT_DIR$/Interview/Real World" />
+      <recent name="$PROJECT_DIR$/Interview/Array" />
+      <recent name="$PROJECT_DIR$/Interview/Stack" />
+      <recent name="$PROJECT_DIR$/Interview/Recursion" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -345,65 +455,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.longest_palidromic_substring">
-    <configuration default="false" name="combination_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interview/Backtracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Code-Katas" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview/Backtracking/combination_sum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="num_coin_path" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interview/Dynamic Programming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Code-Katas" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview/Dynamic Programming/num_coin_path.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Linkedin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interview/Real World" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Code-Katas" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview/Real World/Linkedin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="longest_palidromic_substring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.permutations">
+    <configuration default="false" name="balanced_paranthesis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -416,26 +469,83 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Code-Katas" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview/String/palidrome.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview/String/balanced_paranthesis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="dependency" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="search_rotated_sorted_array" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interview/Recursion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interview/Search" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Code-Katas" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview/Recursion/dependency.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview/Search/search_rotated_sorted_array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="permutations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interview/String" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code-Katas" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview/String/permutations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="permutation_combination_string" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interview/String" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code-Katas" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview/String/permutation_combination_string.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="remove_duplicates" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interview/Array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code-Katas" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview/Array/remove_duplicates.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -627,19 +737,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.combination_sum" />
-      <item index="1" class="java.lang.String" itemvalue="Python.num_coin_path" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Linkedin" />
-      <item index="3" class="java.lang.String" itemvalue="Python.longest_palidromic_substring" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dependency" />
+      <item index="0" class="java.lang.String" itemvalue="Python.balanced_paranthesis" />
+      <item index="1" class="java.lang.String" itemvalue="Python.search_rotated_sorted_array" />
+      <item index="2" class="java.lang.String" itemvalue="Python.permutations" />
+      <item index="3" class="java.lang.String" itemvalue="Python.permutation_combination_string" />
+      <item index="4" class="java.lang.String" itemvalue="Python.remove_duplicates" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.longest_palidromic_substring" />
-        <item index="1" class="java.lang.String" itemvalue="Python.dependency" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Linkedin" />
-        <item index="3" class="java.lang.String" itemvalue="Python.combination_sum" />
-        <item index="4" class="java.lang.String" itemvalue="Python.num_coin_path" />
+        <item index="0" class="java.lang.String" itemvalue="Python.permutations" />
+        <item index="1" class="java.lang.String" itemvalue="Python.permutation_combination_string" />
+        <item index="2" class="java.lang.String" itemvalue="Python.remove_duplicates" />
+        <item index="3" class="java.lang.String" itemvalue="Python.search_rotated_sorted_array" />
+        <item index="4" class="java.lang.String" itemvalue="Python.balanced_paranthesis" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -676,51 +786,40 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13844515" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2003231" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.270229" sideWeight="0.5072698" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1251337" sideWeight="0.4927302" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28907922" sideWeight="0.5101172" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24717286" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30839694" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25648856" sideWeight="0.48402557" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28854963" sideWeight="0.48988286" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.270229" sideWeight="0.5072698" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26412213" sideWeight="0.4927302" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18739903" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3114504" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -737,361 +836,366 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="157" />
+      <option name="time" value="239" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Interview/Array/subarray_sum.py">
+    <entry file="file://$PROJECT_DIR$/Interview/Real World/airbnb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+        <state relative-caret-position="145">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Array/rotate_2d_matrix.py">
+    <entry file="file://$PROJECT_DIR$/Interview/String/text_justification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="144">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Array/rotate_function.py">
+    <entry file="file://$PROJECT_DIR$/Interview/String/tweet_chunks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="144">
+          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Array/merge_k_sorted_arrays.py">
+    <entry file="file://$PROJECT_DIR$/Interview/Real World/Facebook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Real World/Google.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Design/base62en_de.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Array/flatten.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Dynamic Programming/sudoku_sol_check.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Sort/ranges.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Sort/intervals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Sort/merge_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Trees/add-and-search-word-data-structure-design.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-768">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Trees/binary_tree_solutions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/BS/invite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Design/lru-cache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/BS/Data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Array/majority_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Array/combination_of_arrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Array/best-time-to-buy-sell-stock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/String/edit_distance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/String/dna_sequencing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/String/longest_common_subsequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/String/permutations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Array/best_meeting_point.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="67" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Array/two_three_four_sums.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1168">
-          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/String/substring_concatenation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/String/longest_substring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Array/minimum_rotated_sorted.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Interview/Array/missing_number.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Array/next_greater_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/CSV Processing/excel_column.py">
+    <entry file="file://$PROJECT_DIR$/Interview/File IO/read_write.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/String/word_distance.py">
+    <entry file="file://$PROJECT_DIR$/Interview/Array/set_operations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Real World/airbnb.py">
+    <entry file="file://$PROJECT_DIR$/Interview/API/rest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Dynamic Programming/min_coins_change.py" />
-    <entry file="file://$PROJECT_DIR$/Interview/Dynamic Programming/num_coin_path.py">
+    <entry file="file://$PROJECT_DIR$/Interview/Stack/min_stack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Dynamic Programming/coins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Backtracking/combination_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Dynamic Programming/unique_paths.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Real World/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Real World/pintrest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/String/valid_palindrome.py" />
-    <entry file="file://$PROJECT_DIR$/Interview/String/permutation_combination_string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Recursion/dependency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Array/max_sub_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Int Misc/Leetcode/Python/01-matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Utility Functions/weighted_random_number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Utility Functions/tail_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/String/string_questions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="76" column="23" lean-forward="false" selection-start-line="76" selection-start-column="23" selection-end-line="80" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/Utility Functions/largest_interger_X.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/String/palidrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="249">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Interview/Real World/Linkedin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="131" column="18" lean-forward="true" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
+        <state relative-caret-position="702">
+          <caret line="39" column="15" lean-forward="true" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/sliding_window_maximum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Bit Manipulation/missing_number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Real World/Linkedin_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="57" column="23" lean-forward="false" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Bit Manipulation/single_number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/stream_median.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Pattern Matching/re_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Bit Manipulation/maximum_product_word_lengths.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Stack/reverse_polish_notation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Utility Functions/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Utility Functions/combination_of_arrays.py" />
+    <entry file="file://$PROJECT_DIR$/Interview/Utility Functions/itertools_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Utility Functions/list_tidbits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Real World/weighted_random_number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Stack/ternary_expression_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Stack/decode_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/longest_consecutive_sequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/merge_k_sorted_arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/minimum_rotated_sorted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/next_greater_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/File IO/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/File IO/hash_test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/File IO/word_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Backtracking/combination_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/dutch_national_flag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/best-time-to-buy-sell-stock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/combination_of_arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/first_missing_positive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/best_meeting_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/k_largest_smallest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/first_k_occurance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/median_of_two_sorted_arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/merge_two_sorted_list_ascending_descending.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/String/palidrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="73" lean-forward="false" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/two_three_four_sums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/String/balanced_paranthesis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Search/search_rotated_sorted_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/Array/remove_duplicates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="73" column="45" lean-forward="false" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/String/permutation_combination_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/String/anagrams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/String/permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>

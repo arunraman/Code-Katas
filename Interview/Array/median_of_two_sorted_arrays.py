@@ -1,22 +1,31 @@
 class Solution(object):
-
-    def findMedianSortedArrays(self, nums1, nums2):
-        def kth(x, y, k):
-            n, m = len(x), len(y)
-            if n == 0:
-                return y[k-1]
-            if m == 0:
-                return x[k-1]
-            xm, ym = n/2, m/2
-            if x[xm] > y[ym]:
-                x, y, xm, ym, n, m = y, x, ym, xm, m, n
-            if k <= xm+ym+1:
-                return kth(x, y[:ym], k)
-            else:
-                return kth(x[xm+1:], y, k-xm-1)
-        n, m = len(nums1), len(nums2)
-        k = (n+m)/2
-        if (n+m) % 2 == 1:
-            return kth(nums1, nums2, k+1)
+    def findMedianSortedArrays(self, A, B):
+        l = len(A) + len(B)
+        if l % 2 == 1:
+            return self.findKth(A, B, l // 2)
         else:
-            return (kth(nums1, nums2, k)+kth(nums1, nums2, k+1))/2.0
+            return (self.findKth(A, B, l // 2 - 1) + self.findKth(A, B, l // 2)) / 2.0
+
+    def findKth(self, A, B, k):
+        if len(A) > len(B):
+            A, B = (B, A)
+        if not A:
+            return B[k]
+        if k == len(A) + len(B) - 1:
+            return max(A[-1], B[-1])
+
+        i = min(len(A) - 1, k / 2)
+        j = min(len(B) - 1, k - i)
+
+        if A[i] > B[j]:
+            return self.findKth(A[:i], B[j:], i)
+        else:
+            return self.findKth(A[i:], B[:j], j)
+
+
+S = Solution()
+print S.findMedianSortedArrays([1, 12, 15.5, 26, 38], [2, 13, 17, 30, 45])
+print S.findMedianSortedArrays([], [2, 13, 17, 30, 45, 50])
+print S.findMedianSortedArrays([1, 12, 15], [])
+
+

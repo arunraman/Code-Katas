@@ -62,6 +62,12 @@ def remove_all_duplicates_in_any_array(A):
     print uniq
 
 
+def remove_duplicates_from_list_of_lists(A):
+    import itertools
+    A.sort()
+    print list(k for k, _ in itertools.groupby(A))
+
+
 def removeElement(array, element):
     if (len(array) == 1 and array[0] == element) or (len(array) < 1):
         return []
@@ -76,4 +82,5 @@ remove_duplicates_sorted_array_allowed_twice([1, 1, 1, 2, 2, 3, 3, 3, 3, 4])
 #remove_duplicates_sorted_array_allowed_twice_2([1, 1, 1, 2, 2, 2, 3])
 remove_all_duplicates_in_array([4,3,2,7,8,2,3,1,7])
 remove_all_duplicates_in_any_array([4,3,100,7,150,2,3,1,7])
+remove_duplicates_from_list_of_lists([[1, 1, 2], [1, 1, 2], [1, 2, 1], [1, 2, 1], [2, 1, 1], [2, 1, 1]])
 removeElement([1, 2, 3, 4, 5, 2, 2], 2)

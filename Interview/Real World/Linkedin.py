@@ -118,16 +118,31 @@ def print_Linked_In():
 import os
 from collections import defaultdict, OrderedDict
 def generateCSV():
-    counter_dict = defaultdict(int)
+    counter_dict = defaultdict(lambda: defaultdict(int))
+    cols = ['minute', 'total_count']
     if os.path.exists("log.txt"):
         with open("log.txt", 'r') as FP:
             for line in FP.readlines():
                 dat = line.split("fakehost")[0].split(':')
-                counter_dict[dat[0] + ':' + dat[1]] += 1
+                column_info = line.split("fakehost")[1].split(':')[0]
+                new_column_info = column_info.split(r"[")[0].strip()
+                counter_dict[dat[0] + ':' + dat[1]]['total_count'] += 1
+                if new_column_info in counter_dict[dat[0] + ':' + dat[1]]:
+                    counter_dict[dat[0] + ':' + dat[1]][new_column_info] += 1
+                else:
+                    cols.append(new_column_info)
+                    counter_dict[dat[0] + ':' + dat[1]][new_column_info] = 1
+
     od = OrderedDict(sorted(counter_dict.items()))
 
-    for k, v in od.iteritems():
-       print k  + ',' + str(v)
+    print " ".join(i for i in cols)
+    for k , v in od.iteritems():
+        for i in cols:
+            print k, ',' + str(v[i])
+
+
+    #for k, v in od.iteritems():
+    #   print k  + ',' + str(v)
 
 #print_Linked_In()
 generateCSV()

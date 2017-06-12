@@ -28,9 +28,8 @@ def Main():
     #word_count(sys.argv[1])
 
     # Clever way to do it ;)
-    words = re.findall(r'\w+', open('gutenberg.txt').read().lower())
+    words = re.findall(r'\w\.\w\.?|\w+', open('hash_test.txt').read().lower())
     count = Counter(words).most_common(5)
     print count
 
-if __name__ == '__main__':
-    Main()
+Main()
