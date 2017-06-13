@@ -12,9 +12,9 @@ def word_count(file):
         lines = F.readlines()
         for line in lines:
             line = line.rstrip()
-            words = line.split()
+            words = line.lower().split()
             for word in words:
-                word = word.lower()
+                print word
                 remove_punctuation = re.compile(r'([^A-Za-z0-9])')
                 remove_punctuation.sub("", word)
                 word_dict[word] += 1
@@ -25,7 +25,7 @@ def Main():
     #if not os.path.exists(sys.argv[1]):
     #    sys.exit("Please specify a file name for word count")
 
-    #word_count(sys.argv[1])
+    word_count('hash_test.txt')
 
     # Clever way to do it ;)
     words = re.findall(r'\w\.\w\.?|\w+', open('hash_test.txt').read().lower())
