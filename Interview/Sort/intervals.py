@@ -43,10 +43,19 @@ class Solution():
             prev, current = result[-1], intervals[i]
             if current.start <= prev.end:
                 prev.end = max(prev.end, current.end)
+            elif current.start == prev.end + 1:
+                prev.end = max(prev.end, current.end)
             else:
                 result.append(current)
-        print result
+        return result
 
+    def IsOccupied(self, intervals, interval_check):
+        if not intervals:
+            return False
+        for i in xrange(len(intervals)):
+            if interval_check.start >= intervals[i].start and interval_check.end <= intervals[i].end:
+                return True
+        return False
 
     def removeOverlappingInterval(self, intervals):
         # [1, 2], [2, 3], [3, 4], [1, 3] remove [1, 3]
@@ -70,7 +79,10 @@ class Solution():
 
 
 S = Solution()
-S.Mergeintervals([Interval(1, 3), Interval(2, 6), Interval(8, 10), Interval(15,18)])
+print S.Mergeintervals([Interval(1, 3), Interval(2, 6), Interval(8, 10), Interval(15,18)])
+M_I = S.Mergeintervals([Interval(1, 3), Interval(4, 10), Interval(20, 30)])
+print M_I
+print S.IsOccupied(M_I, Interval(20, 30))
 S.removeOverlappingInterval([Interval(1, 2), Interval(2, 3), Interval(3, 4), Interval(1 ,3)])
 S.addNum(1)
 S.addNum(3)

@@ -6,5 +6,4 @@ class Solution(object):
 
 S = Solution()
 nums = [0,1]
-print nums
 print S.missingNumber(nums)
