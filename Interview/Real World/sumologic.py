@@ -55,3 +55,4 @@ def lengthOfLongestSubstring(S):
 print lengthOfLongestSubstring("abadedaa")
 print lengthOfLongestSubstring("aaaaa")
 print lengthOfLongestSubstring("abcabc")
+

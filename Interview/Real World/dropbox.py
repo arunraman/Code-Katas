@@ -32,6 +32,10 @@
 # Are there Hardlinks ?
 # Hardlinks and circular hardlinks have
 
+# This will not cover this test case where A hardlink/softlink file from some other directory
+# is copied
+
+
 
 from collections import defaultdict
 import os
@@ -44,7 +48,7 @@ class Solution(object):
         self.files_by_size = defaultdict(list)
         self.files_by_hash_sum = defaultdict(list)
         self.files_by_symlink = defaultdict(list)
-        self.files_by_hardlink = set()
+        self.files_by_hardlink_inode = defaultdict(list)
         self.file_duplicate_list = []
 
     def find_duplicates(self, root_path):
@@ -59,9 +63,10 @@ class Solution(object):
         # Iteratively depth-first traverse root_path
         while self.list_of_files:
             directory = self.list_of_files.pop()
-            self.directory_entries = os.listdir(directory)
-            for dir_entry in self.directory_entries:
+
+            for dir_entry in os.listdir(directory):
                 dir_entry = os.path.join(directory, dir_entry)
+                self.directory_entries.append(dir_entry)
                 if os.path.isdir(dir_entry):
                     self.list_of_files.append(dir_entry)
                 else:
@@ -69,7 +74,8 @@ class Solution(object):
                     if os.path.islink(dir_entry) or os.stat(dir_entry).st_nlink > 1:
                         if  os.stat(dir_entry).st_nlink > 1:
                             # hard links
-                            self.get_parent_hard_linked_file_path(dir_entry)
+                            self.get_parent_hard_linked_file_path(dir_entry,
+                                                                  os.stat(dir_entry).st_ino)
                         else:
                             # soft links
                             self.get_parent_sym_linked_file_path(dir_entry)
@@ -80,8 +86,8 @@ class Solution(object):
     def get_parent_sym_linked_file_path(self, symlink_file):
         self.files_by_symlink[os.path.realpath(symlink_file)].append(symlink_file)
 
-    def get_parent_hard_linked_file_path(self, hardlink_file):
-        self.files_by_hardlink.add(hardlink_file)
+    def get_parent_hard_linked_file_path(self, hardlink_file, inode_number):
+        self.files_by_hardlink_inode[inode_number].append(hardlink_file)
 
     def group_files_by_hash(self):
         # Now go through every size and verify sameness by hashing
@@ -104,10 +110,12 @@ class Solution(object):
 
     def group_all_duplicates(self):
         # Add all the hard link files
-        self.file_duplicate_list.append(list(self.files_by_hardlink))
+        for filenames in self.files_by_hardlink_inode.values():
+            if len(filenames) > 1:
+                self.file_duplicate_list.append(filenames)
 
         # Now go through all the same hashes and print them
-        for hashcode, filenames in self.files_by_hash_sum.iteritems():
+        for filenames in self.files_by_hash_sum.values():
             if len(filenames) > 1:# or filename in self.files_by_symlink:
                 temp = []
                 for filename in filenames:
@@ -119,17 +127,30 @@ class Solution(object):
                         temp.append(filename)
                 self.file_duplicate_list.append(temp)
 
-        # if there are only
-        for filename in self.files_by_symlink:
+        # if there are multiple symlink files, which are duplicate and the parent file is in another directory.
+        # Then we need to get the symlink files alone
+
+        for parent_file, filenames in self.files_by_symlink.iteritems():
             temp = []
-            if filename in self.directory_entries:
-                temp.append(filename)
-            temp.extend(self.files_by_symlink[filename])
+            if parent_file in self.directory_entries:
+                temp.append(parent_file)
+            temp.extend(filenames)
             self.file_duplicate_list.append(temp)
 
+        # for filename in self.files_by_symlink.keys():
+        #     temp = []
+        #     if filename in self.directory_entries:
+        #         temp.append(filename)
+        #     elif len(self.files_by_symlink[filename]) > 1:
+        #         temp.extend(self.files_by_symlink[filename])
+        #
+        #     if temp:
+        #         self.file_duplicate_list.append(temp)
         return self.file_duplicate_list
 
 
 
 S = Solution()
-print str(S.find_duplicates('/Users/aruraman/foo')).replace(', [',"\n [")
+x = S.find_duplicates('/Users/aruraman/foo')
+#print x
+print str(x).replace(', [',"\n\n [")
