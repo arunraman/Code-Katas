@@ -20,7 +20,7 @@ def remove_duplicates_sorted_array_allowed_twice(A):
 # Better avoid this..
 
 # def remove_duplicates_sorted_array(A):
-#     if len(A) == 0:
+#     if len(A) == 0:2
 #         return 0
 #     j = 0
 #     for i in range(0, len(A)):

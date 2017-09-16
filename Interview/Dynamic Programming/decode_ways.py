@@ -11,4 +11,4 @@ class Solution():
         return w
 
 S = Solution()
-print S.numDecodings('101')
+print S.numDecodings('12')

@@ -28,16 +28,25 @@ class Solution(object):
             if w.startswith("\"") or w.endswith("\""):
                 new_w += result[i]
                 if new_w.startswith("\"") and new_w.endswith("\""):
-                    x = new_w.replace('""', r'/"')
+                    #self.replace_two_double_quotes(new_w)
+                    x = re.sub('\"{2}', '\\\"', new_w)
                     new_result.append(x)
                     new_w = ""
             else:
                 new_result.append(w)
         return new_result
 
+    def replace_two_double_quotes(self, new_sentence):
+        x = list(new_sentence)
+        i = 1
+        while(i != len(x) - 2):
+            if x[i] == x[i - 1] == "\"":
+                print i
+            i += 1
+
 
 S = Solution()
 
-#print S.parseCsv('John,Smith,john.smith@gmail.com,Los Angeles,1')
-#print S.parseCsv('Jane,Roberts,janer@msn.com,"San Francisco, CA",0')
+print S.parseCsv('John,Smith,john.smith@gmail.com,Los Angeles,1')
+print S.parseCsv('Jane,Roberts,janer@msn.com,"San Francisco, CA",0')
 print S.parseCsv('"Alexandra ""Alex""",Menendez,alex.menendez@gmail.com,Miami,1')

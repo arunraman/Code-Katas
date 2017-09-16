@@ -24,35 +24,36 @@ def lengthOfLongestRepeatingSubstring(s):
     print max(m, key=len)
 
 
-def lengthOfLongestNonRepeatingSubstring(s):
+def lengthOfLongestNonRepeatingSubstring(S):
+    # This should be replaced by an array (size = alphabet size).
     last_occurrence = {}
     longest_len_so_far = 0
-    longest_pos_so_far = 0
+    longest_start_pos_so_far = 0
     curr_starting_pos = 0
     curr_length = 0
 
-    for k, c in enumerate(s):
-        l = last_occurrence.get(c, -1)
+    for k, char in enumerate(S):
+        l = last_occurrence.get(char, -1)
         # If no repetition within window, no problems.
         if l < curr_starting_pos:
             curr_length += 1
         else:
             # Check if it is the longest so far
             if curr_length > longest_len_so_far:
-                longest_pos_so_far = curr_starting_pos
+                longest_start_pos_so_far = curr_starting_pos
                 longest_len_so_far = curr_length
             # Cut the prefix that has repetition
             curr_length -= l - curr_starting_pos
             curr_starting_pos = l + 1
         # In any case, update last_occurrence
-        last_occurrence[c] = k
+        last_occurrence[char] = k
 
     # Maybe the longest substring is a suffix
     if curr_length > longest_len_so_far:
-        longest_pos_so_far = curr_starting_pos
+        longest_start_pos_so_far = curr_starting_pos
         longest_len_so_far = curr_length
 
-    print s[longest_pos_so_far:longest_pos_so_far + longest_len_so_far]
+    return S[longest_start_pos_so_far:longest_start_pos_so_far + longest_len_so_far]
 
 
 def lengthOfLongestSubstringKDistinct(s, k):

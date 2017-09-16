@@ -28,6 +28,8 @@ class Solution:
         return head.next
 
 l_1 = ListNode(5)
+l_1.next = ListNode(10)
+l_1.next.next = ListNode(15)
 l_2 = ListNode(10)
 S = Solution()
-S.addTwoNumbers(l_1, l_2)
+print S.addTwoNumbers(l_1, l_2)

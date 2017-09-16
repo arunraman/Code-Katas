@@ -91,12 +91,13 @@ class queryMin(object):
 
 
     def Query(self, index1, index2):
+        self.processArray()
         print self.min_lookup[self.array[index1]][index2]
 
 
-# Q = queryMin()
-# Q.Query(2, 4)
-# Q.Query(4, 6)
+Q = queryMin()
+Q.Query(2, 4)
+Q.Query(4, 6)
 
 import heapq
 class klargestsumPair(object):

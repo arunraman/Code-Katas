@@ -51,13 +51,13 @@ class Solution(object):
             return None
         if LIMIT_SIZE:
             chunk = F.read(LIMIT_SIZE)
-            hash_sum.update(chunk.encode())
+            hash_sum.update(chunk)
         else:
             while True:
                 chunk = F.read(BLOCK_SIZE)
                 if not chunk:
                     break
-                hash_sum.update(chunk.encode())
+                hash_sum.update(chunk)
         F.close()
         return hash_sum.digest()
 

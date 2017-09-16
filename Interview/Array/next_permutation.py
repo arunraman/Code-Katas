@@ -3,7 +3,6 @@ def nextPermutation(num):
     for i in xrange(len(num) - 1):
         if num[i] < num[i + 1]:
             next = i
-
     if next == -1:
         num.reverse()
         return

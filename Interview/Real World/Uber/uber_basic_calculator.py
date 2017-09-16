@@ -11,9 +11,6 @@ class Solution:
                     operands.append(int(operand[::-1]))
                     operand = ""
             elif s[i] == '*' or s[i] == '/':
-                # if (operators[-1] == '-'):
-                #     operands[-1] = operands[-1] * -1
-                #     operators.pop()
                 operators.append(s[i])
             elif s[i] == '+' or s[i] == '-':
                 while operators and ((operators[-1] == '*' or operators[-1] == '/')):
@@ -39,6 +36,7 @@ class Solution:
 
 S = Solution()
 print S.calculate('1 * 1')
-print S.calculate('1 * -1')
+print S.calculate('1 + 1')
+print S.calculate('1 * 4')
 print S.calculate('1 + 4 - 2')
 print S.calculate('1 * 10 - 7 / 4')

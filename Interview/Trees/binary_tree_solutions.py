@@ -144,7 +144,34 @@ class Solution():
         root.right = self.sortedArrayToBSTRec(num, midPoint + 1, end)
         return root
 
-###########################################################################
+###############################################################################
+
+    def countUnivalSubtrees(self, root):
+        count = [0]
+        self.checkUni(root, count)
+        return count[0]
+
+    def checkUni(self, root, count):
+        if root is None:
+            return True
+
+        left = self.checkUni(root.left, count)
+        right = self.checkUni(root.right, count)
+
+        if left == False and right == False:
+            return False
+
+        if root.left and root.value != root.left.value:
+            return False
+
+        if root.right and root.value != root.right.value:
+            return False
+
+        count[0] += 1
+
+        return True
+
+    ###############################################################################
 
     def displayTree(self, root):
         thislevel = [root]
@@ -162,10 +189,10 @@ S = Solution()
 root = S.addNode(1)
 root.left = S.addNode(2)
 root.right = S.addNode(3)
-# root.left.left = S.addNode(4)
-#root.left.right = S.addNode(5)
-# root.right.left = S.addNode(6)
-# root.right.right = S.addNode(7)
+root.left.left = S.addNode(4)
+root.left.right = S.addNode(5)
+root.right.left = S.addNode(6)
+root.right.right = S.addNode(7)
 
 print "Maximum Path Sum : " + str(S.maxPathSum(root))
 
@@ -198,6 +225,8 @@ if S.isheightBalanced(root):
     print "BTree is height balanced"
 else:
     print "BTree is not height balanced"
+
+print "Number of Univalue Subtrees : " + str(S.countUnivalSubtrees(root))
 
 # Display the tree level order
 S.displayTree(root)

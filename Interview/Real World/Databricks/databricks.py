@@ -33,5 +33,4 @@ class Solution(object):
 
 
 S = Solution()
-
 print S.parseString('SELECT * FROM table WHERE name LIKE "Aaron;"; SELECT * FROM table2 WHERE name2 = "Arun";')

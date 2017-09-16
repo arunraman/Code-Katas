@@ -31,4 +31,13 @@ board = [
   "SFCS",
   "ADEE"
 ]
-S.exist(board, "SEE")
+board_2 = [
+  ['o','a','a','n'],
+  ['e','t','a','e'],
+  ['i','h','k','r'],
+  ['i','f','l','v']
+]
+
+word_list = ["oath","pea","eat","rain"]
+print S.exist(board, "SEE")
+print [word for word in word_list if S.exist(board_2,word)]

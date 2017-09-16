@@ -10,6 +10,8 @@ class dna(object):
         dicDNA = defaultdict(int)
         num = 1
         for i in xrange(len(self.sequence)):
+            # Left shift by 2 is essentially multiplying by 4
+            # 0XFFFFF is the mask
             num = (num * 4 + self.dic[self.sequence[i]]) & 0XFFFFF
             if i < 9:
                 continue

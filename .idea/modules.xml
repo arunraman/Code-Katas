@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Desktop/BS/.idea/BS.iml" filepath="$USER_HOME$/Desktop/BS/.idea/BS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Code-Katas.iml" filepath="$PROJECT_DIR$/.idea/Code-Katas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../.idea/GitHub.iml" filepath="$PROJECT_DIR$/../.idea/GitHub.iml" />
-      <module fileurl="file://$USER_HOME$/Desktop/Int Misc/Leetcode/Python/.idea/Python.iml" filepath="$USER_HOME$/Desktop/Int Misc/Leetcode/Python/.idea/Python.iml" />
     </modules>
   </component>
 </project>

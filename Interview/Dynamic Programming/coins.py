@@ -13,7 +13,7 @@ def coinchangetotalnumberofWays(coins, total):
     return table[total]
 
 
-print coinchangetotalnumberofWays([1, 2, 3], 5)
+print coinchangetotalnumberofWays([1, 2, 3], 2)
 
 # Minimum Number of Coins need for Total
 

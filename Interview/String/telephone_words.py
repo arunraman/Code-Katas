@@ -20,7 +20,7 @@ def letterCombinations(digits):
         result += [result[i % n] for i in xrange(n, m * n)]
 
         for i in xrange(m * n):
-            result[i] = choices[i / n] + result[i]
+            result[i] += choices[i / n]
 
     return result
 

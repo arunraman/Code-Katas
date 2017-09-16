@@ -9,7 +9,7 @@ def bin_search(array, k):
     begin = 0
     end = len(array)
     while begin + 1 < end:
-        mid = begin + (end - begin) / 2
+        mid = begin + (end - begin) // 2
         if array[mid] == k:
             return mid
         elif array[mid] > k:
