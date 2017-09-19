@@ -1,13 +1,12 @@
 def isBalanced(expr):
-    if len(expr) % 2 != 0:
-        return False
     opening = set('([{')
+    closing = set(')]}')
     match = {('(', ')'), ('[', ']'), ('{', '}')}
     stack = []
     for char in expr:
         if char in opening:
             stack.append(char)
-        else:
+        elif char in closing:
             if len(stack) == 0:
                 return False
             lastOpen = stack.pop()
@@ -15,4 +14,5 @@ def isBalanced(expr):
                 return False
     return len(stack) == 0
 
-print isBalanced("][")
+print isBalanced("}{")
+print isBalanced('[dklf(df(kl))d]{}')

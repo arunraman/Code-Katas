@@ -80,7 +80,7 @@ class queryMin(object):
 
     def find_min(self, index1, index2):
         if index1 == index2 or index1 > index2:
-            return 0
+            return None
         return self.array.index(min(self.array[index1:index2+1]))
 
 
@@ -92,12 +92,13 @@ class queryMin(object):
 
     def Query(self, index1, index2):
         self.processArray()
-        print self.min_lookup[self.array[index1]][index2]
+        return self.min_lookup[self.array[index1]][index2]
 
 
 Q = queryMin()
-Q.Query(2, 4)
-Q.Query(4, 6)
+print Q.Query(2, 4)
+print Q.Query(4, 6)
+print Q.Query(6, 4)
 
 import heapq
 class klargestsumPair(object):
