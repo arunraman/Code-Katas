@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 # Maximum sum sub-array with the array elements2
 def max_sum_sub_array(array):
     if len(array) < 2:
@@ -66,25 +68,25 @@ def min_sum_sub_array_to_target(array, k):
 print min_sum_sub_array_to_target([2,3,1,2,4,3], 7)
 
 def SubArraySumtoTarget(nums, k):
-    from collections import defaultdict
-    sums = {}
+    sums = defaultdict(list)
+    result_index = defaultdict(list)
     result = defaultdict(list)
-    cur_sum, max_len = 0, 0
+    currSum = 0
     for i in xrange(len(nums)):
-        cur_sum += nums[i]
-        if cur_sum == k:
-            max_len = i + 1
-            result[k].append(nums[:i+1])
-        elif cur_sum - k in sums:
-            max_len = max(max_len, i - sums[cur_sum - k])
-            result[k].append(nums[sums[cur_sum - k] + 1: i + 1])
-        if cur_sum not in sums:
-            sums[cur_sum] = i  # Only keep the smallest index.
+        currSum += nums[i]
+        if currSum == k:
+            result_index[k].append((0, i))
+            result[k].append(nums[0:i + 1])
+        elif currSum - k in sums:
+            for v in sums[currSum - k]:
+                result_index[k].append((v + 1, i))
+                result[k].append(nums[v + 1:i + 1])
+        sums[currSum].append(i)
 
-    if max_len:
-        return max_len, result.values()[0]
+    if result:
+        return result[k]
     else:
         return "No Sub-array found"
 
-print SubArraySumtoTarget([1, 4, 3, 2, 1, -1], 5)
-print SubArraySumtoTarget([-1, -4, -3, -2, -1, -1], 5)
+print SubArraySumtoTarget([1, 4, 3, 2, -2, 2, 1, -1], 5)
+print SubArraySumtoTarget([1,2,-2,2,-2], 0)
