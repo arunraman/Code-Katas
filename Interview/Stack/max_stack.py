@@ -5,7 +5,7 @@ class MinStack(object):
         self.stack = []
 
     def push(self, x):
-        self.stack.append((x, min(self.getMin(), x)))
+        self.stack.append((x, max(self.getMax(), x)))
 
     def pop(self):
         self.stack.pop()
@@ -14,14 +14,14 @@ class MinStack(object):
         if self.stack:
             return self.stack[-1][0]
 
-    def getMin(self):
+    def getMax(self):
         if self.stack:
             return self.stack[-1][1]
-        return sys.maxint
+        return -1 * sys.maxint
 
 
 M = MinStack()
-M.push(3)
+M.push(11)
 M.push(2)
-M.push(3)
-print M.getMin()
+M.push(10)
+print M.getMax()

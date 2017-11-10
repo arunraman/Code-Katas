@@ -47,7 +47,7 @@ class Matching(object):
 
 
 R = Matching()
-# # print R.wildcardMatching("abc", "a**b**c")
-# # print R.wildcardMatching("aa", "?")
-# # print R.regularexpresssionMatching("aaaaaaaaaaaaab", "a*a*a*a*a*a*a*a*a*a*c")
-# print R.regularexpresssionMatching("aa", ".*")
+print R.wildcardMatching("abc", "a**b**c")
+print R.wildcardMatching("aa", "?")
+print R.regularexpresssionMatching("aaaaaaaaaaaaab", "a*a*a*a*a*a*a*a*a*a*c")
+print R.regularexpresssionMatching("aa", ".*")

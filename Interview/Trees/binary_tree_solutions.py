@@ -72,66 +72,6 @@ class Solution():
 
 ###########################################################################
 
-    def maxHeight(self, root):
-        if not root:
-            return 0
-        else:
-            return max(self.maxHeight(root.left),
-                       self.maxHeight(root.right)) + 1
-
-    def isheightBalanced(self, root):
-        if root == None:
-            return True
-        if self.maxHeight(root.left) - self.maxHeight(root.right) <= 1:
-            return self.isheightBalanced(root.left) and self.isheightBalanced(root.right)
-        else:
-            return False
-
-###########################################################################
-
-    def serializeRecu(self, root):
-        if not root:
-            self.serial.append('#')
-        else:
-            self.serial.append(root.value)
-            self.serializeRecu(root.left)
-            self.serializeRecu(root.right)
-        return ''.join(str(self.serial))
-
-    def deSerializeRecu(self, data):
-        # """Decodes your encoded data to tree.
-        #
-        # :type data: str
-        # :rtype: TreeNode
-        # """
-        #
-
-        # def deserializeHelper():
-        #     val = next(vals)
-        #     if val == '#':
-        #         return None
-        #     else:
-        #         node = TreeNode(int(val))
-        #         node.left = deserializeHelper()
-        #         node.right = deserializeHelper()
-        #         return node
-        #
-        # def isplit(source, sep):
-        #     sepsize = len(sep)
-        #     start = 0
-        #     while True:
-        #         idx = source.find(sep, start)
-        #         if idx == -1:
-        #             yield source[start:]
-        #             return
-        #         yield source[start:idx]
-        #         start = idx + sepsize
-        #
-        # vals = iter(isplit(data, ' '))
-        # return deserializeHelper()
-        pass
-    ###########################################################################
-
     def sortedArrayToBST(self, num):
         return self.sortedArrayToBSTRec(num, 0, len(num) - 1)
 
@@ -211,20 +151,6 @@ bsTree = S.sortedArrayToBST(sorted_array)
 
 # longest consecutive
 print "Longest Consecutive Length " + str(S.longestConsecutiveRecurse(root))
-
-# max height of BTree
-print "Max height of binary tree " + str(S.maxHeight(root))
-
-# Serial De-Serialize
-string = S.serializeRecu(root)
-print "Serialization : " + string
-
-print "De-Serialization : " + str(S.deSerializeRecu(string))
-# Height Balanced or not
-if S.isheightBalanced(root):
-    print "BTree is height balanced"
-else:
-    print "BTree is not height balanced"
 
 print "Number of Univalue Subtrees : " + str(S.countUnivalSubtrees(root))
 

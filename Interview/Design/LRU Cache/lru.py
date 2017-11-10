@@ -31,10 +31,10 @@ class LRUCache(object):
             if len(self.item_list) > self.length:
                 self.removeItem(self.item_list[-1])
 
-            # If this is a new item, just append it to
-            # the front of item_list.
-            self.hash[item.key] = item
-            self.item_list.insert(0, item)
+        # If this is a new item, just append it to
+        # the front of item_list.
+        self.hash[item.key] = item
+        self.item_list.insert(0, item)
 
     def removeItem(self, item):
         """Remove those invalid items"""

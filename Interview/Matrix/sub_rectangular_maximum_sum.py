@@ -52,9 +52,6 @@ def max_sub_rectangle_sum(grid):
     print result
 
 
-
-
-
 grid = [[1, 0, 0],
         [1, 0, 0],
         [1, 0, 0]]

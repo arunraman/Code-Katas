@@ -1,4 +1,6 @@
 from collections import defaultdict
+
+
 def longestIncreasingConsecutiveSubarray(nums):
     longest_dict = defaultdict(list)
     if not nums:
@@ -22,30 +24,18 @@ def longestIncreasingConsecutiveSubarray(nums):
 print longestIncreasingConsecutiveSubarray([100, 1, 50, 99, 2, 3, 1000, 1001])
 print longestIncreasingConsecutiveSubarray([1, 3, 2, 4, 5, 6, 2, 3])
 
+
+# this is also the bridges and cities problem
 def longestIncreasingSequence(nums):
-    LIS = []
+    l = []
+    for i in range(len(nums)):
+        l.append(max([l[j] for j in range(i) if l[j][-1] < nums[i]] or [[]], key=len)
+                 + [nums[i]])
+    return max(l, key=len)
 
-    def insert(target):
-        left, right = 0, len(LIS) - 1
-        # Find the first index "left" which satisfies LIS[left] >= target
-        while left <= right:
-            mid = left + (right - left) / 2
-            if LIS[mid] >= target:
-                right = mid - 1
-            else:
-                left = mid + 1
-        # If not found, append the target.
-        if left == len(LIS):
-            LIS.append(target)
-        else:
-            LIS[left] = target
-
-    for num in nums:
-        insert(num)
-
-    return LIS
 
 print longestIncreasingSequence([10, 9, 2, 5, 3, 7, 101, 18])
+print longestIncreasingSequence([100, 1, 50, 99, 2, 3, 1000, 1001])
 
 
 def longestConsecutiveSequence(nums):
@@ -63,3 +53,4 @@ def longestConsecutiveSequence(nums):
     return best, list(result)
 
 print longestConsecutiveSequence([100, 4, 200, 1, 3, 2])
+print longestConsecutiveSequence([3, 7, 9, 4, 12, 2, 1, 5])

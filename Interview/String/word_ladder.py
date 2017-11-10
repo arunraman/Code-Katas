@@ -1,35 +1,35 @@
-class Solution:
-    # @param {string} beginWord
-    # @param {string} endWord
-    # @param {set<string>} wordDict
-    # @return {integer}
+from collections import deque
 
-    def ladderLength(self, beginWord, endWord, wordDict):
-        from collections import defaultdict, deque
-        queue = deque([[beginWord, 1]])
-        visited = set([beginWord])
-        neighbors = defaultdict(list)
-        for word in wordDict:
-            for x in range(len(word)):
-                token = word[:x] + '_' + word[x+1:]
-                neighbors[token] += word,
+
+class Solution(object):
+    def wordLadder1(self, beginWord, endWord, wordList):
+        wordDict = self.constructDict(wordList | set([beginWord, endWord]))
+        queue, visited = deque([(beginWord, 1)]), set()
         while queue:
-            word, length = queue.popleft()
-            if self.wordDist(word, endWord) <= 1:
-                return length + 1
-            for x in range(len(word)):
-                token = word[:x] + '_' + word[x+1:]
-                for ladder in neighbors[token]:
-                    if ladder not in visited:
-                        visited.add(ladder)
-                        queue += [ladder, length + 1],
+            word, steps = queue.popleft()
+            if word not in visited:
+                visited.add(word)
+                if word == endWord:
+                    return steps
+                for i in xrange(len(word)):
+                    s = word[:i] + '_' + word[i + 1:]
+                    neighList = wordDict.get(s, [])
+                    for neigh in neighList:
+                        if neigh not in visited:
+                            queue.append((neigh, steps + 1))
         return 0
 
-    def wordDist(self, wordA, wordB):
-        return sum([wordA[x] != wordB[x] for x in range(len(wordA))])
+    def constructDict(self, wordList):
+        d = {}
+        for word in wordList:
+            for i in xrange(len(word)):
+                s = word[:i] + '_' + word[i + 1:]
+                d[s] = d.get(s, []) + [word]
+        return d
+
 
 S = Solution()
 start = "hit"
 end = "cog"
-dict = ["hot", "dot", "dog", "lot", "log"]
-print S.ladderLength(start, end, dict)
+wordList = ["hot", "dot", "dog", "lot", "log"]
+print S.wordLadder1(start, end, set(wordList))

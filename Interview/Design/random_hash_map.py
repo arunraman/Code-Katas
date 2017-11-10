@@ -24,12 +24,12 @@ class RandomHash:
         p = self.P[k]
         self.elems[p], self.elems[-1] = self.elems[-1], self.elems[p]
         self.P[self.elems[p]] = p
-        del M[k]
-        del P[k]
+        del self.M[k]
+        del self.P[k]
         self.elems.pop()
         return True
 
     def getRandom(self):
         if not self.elems: return None
         k = self.elems[random.randint(1, len(self.elems)) - 1]
-        return k, M[k]
+        return k, self.M[k]
