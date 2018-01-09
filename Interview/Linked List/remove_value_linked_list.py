@@ -1,7 +1,4 @@
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+from ListNode import ListNode
 
 class Solution:
     # @param {ListNode} head
@@ -17,9 +14,7 @@ class Solution:
                 prev.next = curr.next
             else:
                 prev = curr
-
             curr = curr.next
-
 
 head = ListNode(1)
 head.next = ListNode(6)

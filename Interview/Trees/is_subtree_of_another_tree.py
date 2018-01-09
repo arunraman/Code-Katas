@@ -9,28 +9,28 @@ class Solution(object):
     def addNode(self, val):
         return Treenode(val)
 
-    def isIdentical(self, tree_1, tree_2):
-        if tree_1 is None and tree_2 is None:
+    def isSubtree(self, s, t):
+
+        def check(s, t):
+            # helper function that does the actual subtree check
+            if (s is None) and (t is None):
+                return True
+            if (s is None) or (t is None):
+                return False
+            return (s.val == t.val and check(s.left, t.left) and check(s.right, t.right))
+
+        # need to do a pre-order traversal and do a check
+        # for every node we visit for the subtree
+        if not s:
+            # return False since None cannot contain a subtree
+            return False
+        if check(s, t):
+            # we found a match
             return True
-
-        if tree_1 is not None and tree_2 is not None:
-            return ((tree_1.val == tree_2.val) and
-                    self.isIdentical(tree_1.left, tree_2.left) and
-                    self.isIdentical(tree_1.right, tree_2.right))
-
+        if self.isSubtree(s.left, t) or self.isSubtree(s.right, t):
+            # a match was found
+            return True
         return False
-
-    def isSubtree(self, tree_1, tree_2):
-        if tree_2 is None:
-            return True
-
-        if tree_1 is None:
-            return True
-
-        if self.isIdentical(tree_1, tree_2):
-            return True
-
-        return self.isSubtree(tree_1.left, tree_2) or self.isSubtree(tree_1.right, tree_2)
 
 S = Solution()
 root1 = S.addNode(30)
@@ -39,6 +39,6 @@ root1.right = S.addNode(40)
 
 root2 = S.addNode(30)
 root2.left = S.addNode(20)
-root2.right = S.addNode(45)
+root2.right = S.addNode(40)
 
 print S.isSubtree(root1, root2)

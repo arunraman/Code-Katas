@@ -21,7 +21,8 @@ class Solution():
     def binaryTreeToArray(self, root):
         if root is None:
             return []
-        return self.binaryTreeToArray(root.left) + [root.value] + self.binaryTreeToArray(root.right)
+        return self.binaryTreeToArray(root.left) + [root.value] + \
+               self.binaryTreeToArray(root.right)
 
 ###########################################################################
 

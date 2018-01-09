@@ -14,7 +14,6 @@ def word_count(file):
             line = line.rstrip()
             words = line.lower().split()
             for word in words:
-                print word
                 remove_punctuation = re.compile(r'([^A-Za-z0-9])')
                 remove_punctuation.sub("", word)
                 word_dict[word] += 1

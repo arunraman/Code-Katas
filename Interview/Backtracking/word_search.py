@@ -1,6 +1,8 @@
 class Solution(object):
+
     def exist(self, board, word):
-        visited = [[False for j in xrange(len(board[0]))] for i in xrange(len(board))]
+        visited = [[False for j in xrange(len(board[0]))]
+                   for i in xrange(len(board))]
 
         for i in xrange(len(board)):
             for j in xrange(len(board[0])):
@@ -18,26 +20,27 @@ class Solution(object):
 
         visited[i][j] = True
         result = self.existRecu(board, word, cur + 1, i + 1, j, visited) or \
-                 self.existRecu(board, word, cur + 1, i - 1, j, visited) or \
-                 self.existRecu(board, word, cur + 1, i, j + 1, visited) or \
-                 self.existRecu(board, word, cur + 1, i, j - 1, visited)
+            self.existRecu(board, word, cur + 1, i - 1, j, visited) or \
+            self.existRecu(board, word, cur + 1, i, j + 1, visited) or \
+            self.existRecu(board, word, cur + 1, i, j - 1, visited)
         visited[i][j] = False
 
         return result
 
+
 S = Solution()
 board = [
-  "ABCE",
-  "SFCS",
-  "ADEE"
+    "ABCE",
+    "SFCS",
+    "ADEE"
 ]
 board_2 = [
-  ['o','a','a','n'],
-  ['e','t','a','e'],
-  ['i','h','k','r'],
-  ['i','f','l','v']
+    ['o', 'a', 'a', 'n'],
+    ['e', 't', 'a', 'e'],
+    ['i', 'h', 'k', 'r'],
+    ['i', 'f', 'l', 'v']
 ]
 
-word_list = ["oath","pea","eat","rain"]
+word_list = ["oath", "pea", "eat", "rain"]
 print S.exist(board, "SEE")
-print [word for word in word_list if S.exist(board_2,word)]
+print[word for word in word_list if S.exist(board_2, word)]

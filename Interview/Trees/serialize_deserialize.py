@@ -45,4 +45,4 @@ root.right = S.addNode(3)
 
 
 print S.serialize(root)
-print S.deserialize('1 2 # # 3 # #')
+print S.deserialize('1 2 # # 3 # #').val

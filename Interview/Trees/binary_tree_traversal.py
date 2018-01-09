@@ -5,9 +5,6 @@ class Treenode():
         self.right = None
 
 class Solution():
-    def __init__(self):
-        self.stack = []
-
     def addNode(self, data):
         return Treenode(data)
 
@@ -21,25 +18,25 @@ class Solution():
     def inOrder(self, root):
         if root == None:
             return
-        self.preOrder(root.left)
+        self.inOrder(root.left)
         print root.value
-        self.preOrder(root.right)
+        self.inOrder(root.right)
 
     def postOrder(self, root):
         if root == None:
             return
-        self.preOrder(root.left)
-        self.preOrder(root.right)
+        self.postOrder(root.left)
+        self.postOrder(root.right)
         print root.value
 
 S = Solution()
-root = S.addNode(15)
-root.left = S.addNode(10)
-root.right = S.addNode(20)
-root.left.left = S.addNode(8)
-root.left.right = S.addNode(12)
-root.right.left = S.addNode(16)
-root.right.right = S.addNode(25)
+root = S.addNode(1)
+#root.left = S.addNode(10)
+root.right = S.addNode(2)
+# root.left.left = S.addNode(8)
+# root.left.right = S.addNode(12)
+root.right.left = S.addNode(3)
+# root.right.right = S.addNode(25)
 S.preOrder(root)
 print "\n"
 S.inOrder(root)

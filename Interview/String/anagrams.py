@@ -17,6 +17,7 @@ def anagram(str1, str2):
             return False
     return True
 
+
 print anagram('Dog', 'Cat')
 print anagram('Pointers', 'Protiens')
 print anagram('A decimal point', "I'm a dot in place")
@@ -32,5 +33,6 @@ def anagram_group(string_list):
         anagram.sort()
         result.append(anagram)
     return result
+
 
 print anagram_group(["cat", "dog", "act", "mac", "cam", "Pointers", "Protiens"])

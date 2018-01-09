@@ -30,6 +30,7 @@ class Matching(object):
         result = [[False for j in xrange(len(p) + 1)] for i in xrange(len(s) + 1)]
 
         result[0][0] = True
+
         for i in xrange(1, len(p) + 1):
             if p[i - 1] == '*':
                 result[0][i] = result[0][i - 1]
@@ -48,6 +49,7 @@ class Matching(object):
 
 R = Matching()
 print R.wildcardMatching("abc", "a**b**c")
-print R.wildcardMatching("aa", "?")
+print R.wildcardMatching("aa", "a")
+print R.wildcardMatching("aab", "c*a*b")
 print R.regularexpresssionMatching("aaaaaaaaaaaaab", "a*a*a*a*a*a*a*a*a*a*c")
 print R.regularexpresssionMatching("aa", ".*")
