@@ -10,8 +10,6 @@
 # // input:  "  Hello it's dev at   Spl!unk!!"
 # // output: "  olleH s'ti ved ta   knulpS!!"
                                     #lpS!knu!!
-                                    
-            
 # static void reversewords(char *s)
 # {
 
@@ -26,7 +24,7 @@ class Solution(object):
                 temp_str += char # s'ti #Hello
             else:
                 result += temp_str[::-1] #lpS! #Knu #s'ti elloH
-                result += char #Spl! #Knu!!  
+                result += char #Spl! #Knu!!
                 temp_str = ""  # ""
         return result
 
@@ -35,5 +33,6 @@ class Solution(object):
             return False
         else:
             return True
+
 S = Solution()
 print S.reverseString("  Hello it's dev at   Spl!unk!!")

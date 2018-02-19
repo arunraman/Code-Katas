@@ -44,7 +44,6 @@ def max_sub_rectangle_sum(grid):
         for right in xrange(left, cols):
             for i in xrange(rows):
                 temp[i] += grid[i][right]
-                print temp
 
             kadane_result = kadane(temp)
             if kadane_result.maxSum > result.maxSum:

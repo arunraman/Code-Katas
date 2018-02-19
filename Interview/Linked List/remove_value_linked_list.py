@@ -1,9 +1,6 @@
 from ListNode import ListNode
 
 class Solution:
-    # @param {ListNode} head
-    # @param {integer} val
-    # @return {ListNode}
     def removeElements(self, head, val):
         dummy = ListNode(float("-inf"))
         dummy.next = head

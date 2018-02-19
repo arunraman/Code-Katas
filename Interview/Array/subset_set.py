@@ -30,5 +30,5 @@ class Solution(object):
             self.subsetsWithDupRecu(result, cur + [nums[0]], nums[1:])
 
 S = Solution()
-print S.subsets([1, 2, 3])
+print S.subsets([1, 2, 2])
 print S.subsetsWithDup([1, 2, 2])

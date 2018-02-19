@@ -22,7 +22,6 @@ class CommonElementsIterator():
         y_1 = next(self.i2)
         while(x and y):
             if x_1 == y_1:
-                iter(x_1)
                 try:
                     x_1 = next(x)
                 except:
@@ -35,7 +34,7 @@ class CommonElementsIterator():
                 try:
                     x_1 = next(x)
                 except:
-                    x = None
+                    x = False
             else:
                 try:
                     y_1 = next(y)

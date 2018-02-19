@@ -6,7 +6,7 @@ class Solution():
             return -1
         lo , hi, mid, = 0 ,n - 1, 0
         while (lo <= hi):
-            mid = (lo + hi) >> 1
+            mid = (lo + hi) / 2
             if (nums[mid] == target):
                 return mid
             if ((nums[mid] < nums[0]) ^ (target < nums[0])):
