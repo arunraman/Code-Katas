@@ -1,8 +1,4 @@
-class Treenode(object):
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
+from binarytree import Node as Treenode
 
 
 class Solution(object):
@@ -26,10 +22,12 @@ class Solution(object):
 
 S = Solution()
 
-root = S.addNode(1)
-root.left = S.addNode(2)
-root.right = S.addNode(3)
-# root.left.left = S.addNode(4)
-# root.left.left.left = S.addNode(5)
+root = Treenode(1)
+root.left = Treenode(2)
+root.right = Treenode(3)
+root.left.left = Treenode(4)
+root.right.right = Treenode(5)
 
+print root
+print S.maxHeight(root)
 print S.isheightBalanced(root)

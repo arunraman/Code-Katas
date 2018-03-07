@@ -1,4 +1,4 @@
-from ListNode import ListNode
+from ListNode import *
 
 class Solution(object):
     def reverseBetween(self, head, m, n):
@@ -22,11 +22,16 @@ class Solution(object):
         return dummy.next
 
 
-S = Solution()
-head = ListNode(1)
-head.next = ListNode(2)
-head.next.next = ListNode(3)
-head.next.next.next = ListNode(4)
-head.next.next.next.next = ListNode(5)
+list1 = LinkedList()  # Creating a linked list
+list1.append(1)  # Assigning values to linked list in unsorted manner
+list1.append(2)
+list1.append(3)
+list1.append(4)
+list1.append(5)
+list1.append(6)
+list1.append(7)
+list1.append(8)
 
-print S.reverseBetween(head, 3, 5)
+
+S = Solution()
+print S.reverseBetween(list1.head, 3, 5)

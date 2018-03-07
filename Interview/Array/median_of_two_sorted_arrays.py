@@ -4,7 +4,7 @@ class medianoftwosortedArrays(object):
         if l % 2 == 1:
             return self.kth(A, B, l // 2)
         else:
-            return (self.kth(A, B, l // 2) + self.kth(A, B, l // 2 - 1)) / 2.
+            return (self.kth(A, B, l // 2) + self.kth(A, B, l // 2 - 1)) / 2.0
 
     def kth(self, a, b, k):
         if not a:

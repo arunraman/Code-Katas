@@ -9,11 +9,11 @@ def arrange_bookshelf(bookshelf):
     index_map = defaultdict(list)
     book_position_tracker = 0
     for i in xrange(len(bookshelf)):
+
         index_map[bookshelf[i]].append(i)
 
     # for keys in sorted(index_map.keys()):
     #     for index_map[keys]
-
 
 
     print index_map

@@ -1,17 +1,10 @@
-class Treenode():
-    def __init__(self, x=None):
-        self.value = x
-        self.left = None
-        self.right = None
+from binarytree import Node as Treenode
 
 class Solution():
-    def addNode(self, data):
-        return Treenode(data)
-
     def preOrder(self, root):
         if root == None:
             return
-        print root.value
+        print root.value,
         self.preOrder(root.left)
         self.preOrder(root.right)
 
@@ -19,7 +12,7 @@ class Solution():
         if root == None:
             return
         self.inOrder(root.left)
-        print root.value
+        print root.value,
         self.inOrder(root.right)
 
     def postOrder(self, root):
@@ -27,16 +20,17 @@ class Solution():
             return
         self.postOrder(root.left)
         self.postOrder(root.right)
-        print root.value
+        print root.value,
 
 S = Solution()
-root = S.addNode(1)
-#root.left = S.addNode(10)
-root.right = S.addNode(2)
-# root.left.left = S.addNode(8)
-# root.left.right = S.addNode(12)
-root.right.left = S.addNode(3)
-# root.right.right = S.addNode(25)
+root = Treenode(1)
+root.left = Treenode(2)
+root.right = Treenode(3)
+root.left.left = Treenode(8)
+root.left.right = Treenode(12)
+root.right.left = Treenode(3)
+root.right.right = Treenode(25)
+print root
 S.preOrder(root)
 print "\n"
 S.inOrder(root)

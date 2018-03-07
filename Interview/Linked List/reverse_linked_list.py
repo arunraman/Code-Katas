@@ -1,4 +1,4 @@
-from ListNode import ListNode
+from ListNode import *
 
 class Solution(object):
     def reverseList(self, head):
@@ -17,10 +17,11 @@ class Solution(object):
         return new_head
 
 S = Solution()
-head = ListNode(1)
-head.next = ListNode(2)
-head.next.next = ListNode(3)
-head.next.next.next = ListNode(4)
-head.next.next.next.next = ListNode(5)
+l1 = LinkedList()
+l1.append(1)
+l1.append(2)
+l1.append(3)
+l1.append(4)
+l1.append(5)
 
-print S.reverse_list(head)
+print S.reverse_list(l1.head)

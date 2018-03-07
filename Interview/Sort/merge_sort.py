@@ -51,6 +51,4 @@ def MergeCount(A, B):
 #     return [right[0]] + merge(left, right[1:])
 
 
-
-
 print SortCount([4, 5, 1, 6, 3])

@@ -33,4 +33,4 @@ root.left.left = S.addNode(10)
 root.left.right = S.addNode(15)
 root.right.right = S.addNode(5)
 
-print S.lowestCommonAncestor(root, root.left.left, root.left.right).val
+print S.lowestCommonAncestor(root, root.left, root.left).val

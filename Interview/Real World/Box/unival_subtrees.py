@@ -39,7 +39,6 @@ class Solution(object):
             count += 1
             return True , count
         else:
-
             return False, count
 
     def issameValue(self, root, child_node, isUni):

@@ -1,14 +1,7 @@
-class Treenode(object):
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
+from binarytree import Node as Treenode
 
 
 class Solution(object):
-    def addNode(self, val):
-        return Treenode(val)
-
     # A simple function to print leaf nodes of a Binary Tree
     def printLeaves(self, root):
         if (root):
@@ -16,7 +9,7 @@ class Solution(object):
 
             # Print it if it is a leaf node
             if root.left is None and root.right is None:
-                print root.val,
+                print root.value,
 
             self.printLeaves(root.right)
 
@@ -28,11 +21,11 @@ class Solution(object):
 
                 # to ensure top down order, print the node
                 # before calling itself for left subtree
-                print root.val,
+                print root.value,
                 self.printBoundaryLeft(root.left)
 
             elif (root.right):
-                print root.val,
+                print root.value,
                 self.printBoundaryRight(root.right)
 
                 # do nothing if it is a leaf node, this way we
@@ -46,11 +39,11 @@ class Solution(object):
                 # to ensure bottom up order, first call for
                 # right subtree, then print this node
                 self.printBoundaryRight(root.right)
-                print root.val,
+                print root.value,
 
             elif (root.left):
                 self.printBoundaryRight(root.left)
-                print root.val,
+                print root.value,
 
                 # do nothing if it is a leaf node, this way we
                 # avoid duplicates in output
@@ -58,7 +51,7 @@ class Solution(object):
     # A function to do boundary traversal of a given binary tree
     def printBoundary(self, root):
         if (root):
-            print root.val,
+            print root.value,
 
             # Print the left boundary in top-down manner
             self.printBoundaryLeft(root.left)
@@ -72,17 +65,17 @@ class Solution(object):
 
 
 S = Solution()
-root = S.addNode(30)
-root.left = S.addNode(20)
-root.right = S.addNode(40)
-root.left.left = S.addNode(10)
-root.left.right = S.addNode(25)
-root.right.left = S.addNode(35)
-root.right.right = S.addNode(50)
-root.left.left.left = S.addNode(5)
-root.left.left.right = S.addNode(15)
-root.left.right.right = S.addNode(28)
-root.right.right.left = S.addNode(41)
-
+root = Treenode(30)
+root.left = Treenode(20)
+root.right = Treenode(40)
+root.left.left = Treenode(10)
+root.left.right = Treenode(25)
+root.right.left = Treenode(35)
+root.right.right = Treenode(50)
+root.left.left.left = Treenode(5)
+root.left.left.right = Treenode(15)
+root.left.right.right = Treenode(28)
+root.right.right.left = Treenode(41)
+print root
 
 S.printBoundary(root)

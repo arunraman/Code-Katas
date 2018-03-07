@@ -1,9 +1,4 @@
-class ListNode:
-
-    def __init__(self, x):
-        self.val = x
-        self.next = None
-
+from ListNode import *
 
 class Solution:
     # @return a ListNode
@@ -27,9 +22,13 @@ class Solution:
             l = l.next
         return head.next
 
-l_1 = ListNode(5)
-l_1.next = ListNode(10)
-l_1.next.next = ListNode(15)
-l_2 = ListNode(10)
+l1 = LinkedList()
+l1.append(5)
+l1.append(10)
+l1.append(15)
+
+l2 = LinkedList()
+l2.append(10)
+
 S = Solution()
-print S.addTwoNumbers(l_1, l_2)
+print S.addTwoNumbers(l1.head, l2.head)

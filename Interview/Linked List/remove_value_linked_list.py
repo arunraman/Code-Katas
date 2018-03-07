@@ -1,4 +1,4 @@
-from ListNode import ListNode
+from ListNode import *
 
 class Solution:
     def removeElements(self, head, val):
@@ -13,15 +13,16 @@ class Solution:
                 prev = curr
             curr = curr.next
 
-head = ListNode(1)
-head.next = ListNode(6)
-head.next.next = ListNode(2)
-head.next.next.next = ListNode(6)
-head.next.next.next.next = ListNode(3)
-head.next.next.next.next.next = ListNode(4)
-head.next.next.next.next.next.next = ListNode(5)
-head.next.next.next.next.next.next.next = ListNode(6)
+list1 = LinkedList()  # Creating a linked list
+list1.append(1)  # Assigning values to linked list in unsorted manner
+list1.append(6)
+list1.append(2)
+list1.append(6)
+list1.append(3)
+list1.append(4)
+list1.append(5)
+list1.append(6)
 
 S = Solution()
-S.removeElements(head, 6)
-print head
+S.removeElements(list1.head, 6)
+print list1

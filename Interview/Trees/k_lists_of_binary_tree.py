@@ -12,27 +12,27 @@ class Solution(object):
         return Treenode(val)
 
     def k_list_of_lists_btree(self, root, k):
-    	if root is None:
+        if root is None:
             return
 
         levelOrderqueue = deque()
         levelOrderqueue.append(root)
         result = []
         while True:
-        	nodecount = len(levelOrderqueue)
-        	if nodecount == 0 or k == 0:
-        		break
-        	temp_result = []
-        	while nodecount > 0:
-        		node = levelOrderqueue.popleft()
-        		temp_result.append(node.val)
-        		if node.left:
-        			levelOrderqueue.append(node.left)
-        		if node.right:
-        			levelOrderqueue.append(node.right)
-        		nodecount -= 1
-        	result.append(temp_result)
-        	k -= 1
+            nodecount = len(levelOrderqueue)
+            if nodecount == 0 or k == 0:
+                break
+            temp_result = []
+            while nodecount > 0:
+                node = levelOrderqueue.popleft()
+                temp_result.append(node.val)
+                if node.left:
+                    levelOrderqueue.append(node.left)
+                if node.right:
+                    levelOrderqueue.append(node.right)
+                nodecount -= 1
+            result.append(temp_result)
+            k -= 1
         return result
 
 S = Solution()
