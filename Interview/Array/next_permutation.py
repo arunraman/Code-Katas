@@ -14,6 +14,13 @@ def nextPermutation(num):
     num[next], num[last] = num[last], num[next]
     num[next + 1:] = num[: next :-1]
 
+
+def nextPermutation_1(nums):
+    i = len(nums) - 1
+    while i >= 0:
+        if nums[i] > nums[i - 1]:
+            i -= 1
+
 num = [1, 2, 3]
 nextPermutation(num)
 print num
@@ -21,3 +28,6 @@ nextPermutation(num)
 print num
 nextPermutation(num)
 print num
+
+nums = [1, 2, 3]
+nextPermutation_1(nums)
