@@ -13,5 +13,6 @@ def partitions(n):
             p[-1] += 1
             yield p
 
-for partition in  partitions(5):
-    print partition
+
+for partition in partitions(5):
+    print(partition)
